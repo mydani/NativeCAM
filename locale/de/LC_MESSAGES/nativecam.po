@@ -2575,7 +2575,7 @@ msgstr "Schlichtfräsen"
 #: cfg/mill/slot-arc.cfg:187
 #: cfg/mill/slot.cfg:174
 msgid "None=0:Clockwise=2:Clockwise full depth=12:Counter-Clockwise=3:Counter-Clockwise full depth=13"
-msgstr "Kein=0:Uhrzeigersinn=2:Uhrzeigersinn volle Tiefe=12:Gegenuhrzeigersinn=3Gegenuhrzeigersinn volle Tiefe=13"
+msgstr "Kein=0:Uhrzeigersinn=2:Uhrzeigersinn volle Tiefe=12:Gegenuhrzeigersinn=3:Gegenuhrzeigersinn volle Tiefe=13"
 
 #: cfg/mill/circle-2.cfg:172
 #: cfg/mill/circle.cfg:32
