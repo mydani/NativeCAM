@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nativecam\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-05 08:41+0200\n"
-"PO-Revision-Date: 2020-07-05 08:41+0200\n"
+"PO-Revision-Date: 2020-07-05 10:29+0200\n"
 "Last-Translator: Daniel <mydani@gmx.de>\n"
 "Language-Team: LL@li.org\n"
 "Language: de\n"
@@ -367,12 +367,12 @@ msgstr "X-Achse"
 #: cfg/lathe/boring.cfg:20 cfg/lathe/facing.cfg:20 cfg/lathe/parting.cfg:20
 #: cfg/lathe/turning.cfg:20
 msgid "Begin diameter"
-msgstr "Innendurchmesser"
+msgstr "Start Durchmesser"
 
 #: cfg/lathe/boring.cfg:30 cfg/lathe/facing.cfg:30 cfg/lathe/parting.cfg:30
 #: cfg/lathe/turning.cfg:30
 msgid "End diameter"
-msgstr "Innendurchmesser"
+msgstr "Ende Durchmesser"
 
 #: cfg/lathe/boring.cfg:40 cfg/lathe/facing.cfg:38 cfg/lathe/parting.cfg:38
 #: cfg/lathe/taper_ida.cfg:39 cfg/lathe/taper_idl.cfg:39
@@ -991,7 +991,7 @@ msgstr "Tiefe der ersten Zustellung in Durchmesser-Werten"
 
 #: cfg/lathe/threading.cfg:135
 msgid "End taper"
-msgstr "Innendurchmesser"
+msgstr "Kegelförmig"
 
 #: cfg/lathe/threading.cfg:138
 msgid "None=0:On entry=1:On exit=2:Both=3"
@@ -3525,24 +3525,23 @@ msgstr "Wähle Gewindefräser"
 
 #: cfg/mill/sel-thread-mill.cfg:99
 msgid "Cutter engagement"
-msgstr "Schneidend-Verpflichtung"
+msgstr "Schneideneingriff"
 
 #: cfg/mill/sel-thread-mill.cfg:110
 msgid "Cutter teeth"
-msgstr "Schneidend-Zahn-Rechnung"
+msgstr "Zähne"
 
 #: cfg/mill/sel-thread-mill.cfg:113
 msgid "Number of cutter teeth"
-msgstr "Schneidend-Zahn-Rechnung"
+msgstr "Anzahl Zähne"
 
 #: cfg/mill/sel-thread-mill.cfg:119
 msgid "Lead-in clearance"
-msgstr "Zuleitungsklarheit"
+msgstr "Freiraum für Einfahrt"
 
 #: cfg/mill/sel-thread-mill.cfg:121
 msgid "Distance from face in machine units before engaging cutter"
-msgstr ""
-"Entfernung von Gesicht in Maschine-Einheiten vor einnehmendem Schneidendem"
+msgstr "Entfernung von der Oberfläche in Maschine-Einheiten vor Schnitt"
 
 #: cfg/mill/slot-2.cfg:4 cfg/plasma/slot-2.cfg:4
 msgid "Slot/oval 2 points"
@@ -3827,7 +3826,7 @@ msgstr "Gravurtiefe"
 #: cfg/plasma/rectangle.cfg:121 cfg/plasma/slot-2.cfg:73
 #: cfg/plasma/slot-arc.cfg:102 cfg/plasma/slot.cfg:89
 msgid "Cutting"
-msgstr "Schneiden"
+msgstr "Drehen"
 
 #: cfg/plasma/circle-2.cfg:92 cfg/plasma/circle.cfg:103
 #: cfg/plasma/ellipse.cfg:114 cfg/plasma/polygon.cfg:85

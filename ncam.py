@@ -4224,11 +4224,6 @@ class NCam(gtk.VBox):
             linuxCNC = linuxcnc.command()
             stat = linuxcnc.stat()
             stat.poll()
-            if not s.axis[0]['homed'] or not s.axis[2]['homed']:
-	            return False
-            if not self.pref.cat_name == 'lathe': #do not ask for axis 1 if lathe
-                if not s.axis[1]['homed']:
-                    return False
             if stat.interp_state == linuxcnc.INTERP_IDLE :
                 try :
                     Tkinter.Tk().tk.call("send", "axis", ("remote", "open_file_name", fname))
