@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nativecam\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-05 08:41+0200\n"
-"PO-Revision-Date: 2020-07-05 10:29+0200\n"
+"PO-Revision-Date: 2020-10-07 20:11+0200\n"
 "Last-Translator: Daniel <mydani@gmx.de>\n"
 "Language-Team: LL@li.org\n"
 "Language: de\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: ../../..\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.3\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: xml\n"
 "X-Poedit-SearchPathExcluded-1: configs\n"
@@ -26,11 +26,11 @@ msgstr ""
 
 #: cfg/circular-array.cfg:4
 msgid "Radial Array"
-msgstr "Kreisförmige Anordnung"
+msgstr "Kreisfoermige Anordnung"
 
 #: cfg/circular-array.cfg:6
 msgid "<b>Create a Radial Array of items</b>"
-msgstr "<b>Erzeuge kreisförmige Anordnung von Elementen</b>"
+msgstr "<b>Erzeuge kreisfoermige Anordnung von Elementen</b>"
 
 #: cfg/circular-array.cfg:10 cfg/gcode.cfg:10 cfg/group-off.cfg:16
 #: cfg/group.cfg:16 cfg/i_gcode.cfg:11 cfg/lathe/boring.cfg:10
@@ -76,7 +76,7 @@ msgstr "Aktiv"
 #: cfg/circular-array.cfg:14 cfg/group-off.cfg:20 cfg/group.cfg:20
 #: cfg/rectangular-array.cfg:15
 msgid "Disabling will disable ALL items"
-msgstr "Abwählen betrifft ALLE Elemente"
+msgstr "Abwaehlen betrifft ALLE Elemente"
 
 #: cfg/circular-array.cfg:18 cfg/mill/SHCS_slot-arc.cfg:30
 #: cfg/mill/circle-k.cfg:22 cfg/mill/circle.cfg:22
@@ -84,7 +84,7 @@ msgstr "Abwählen betrifft ALLE Elemente"
 #: cfg/mill/slot-2.cfg:22 cfg/mill/thread-milling.cfg:22
 #: cfg/plasma/circle.cfg:22 cfg/plasma/slot-2.cfg:22
 msgid "Coords, size"
-msgstr "Koordinaten, Größe"
+msgstr "Koordinaten, Groeße"
 
 #: cfg/circular-array.cfg:22
 msgid "Rotation and ends"
@@ -138,7 +138,7 @@ msgstr "Bestimme Bedeutung der Abmessung"
 #: cfg/plasma/polyline-arc-to.cfg:94 cfg/plasma/polyline-arc-top.cfg:87
 #: cfg/plasma/polyline.cfg:166 cfg/plasma/slot-arc.cfg:26
 msgid "Size"
-msgstr "Größe"
+msgstr "Groeße"
 
 #: cfg/circular-array.cfg:64
 msgid "Diameter of array or distance between group of items"
@@ -155,11 +155,11 @@ msgstr "Winkel des ersten Elements"
 
 #: cfg/circular-array.cfg:80 cfg/mill/index-axisA.cfg:40
 msgid "Fill angle"
-msgstr "Füllwinkel"
+msgstr "Fuellwinkel"
 
 #: cfg/circular-array.cfg:84
 msgid "Angle covered by items"
-msgstr "Winkelbereich für Elemente"
+msgstr "Winkelbereich fuer Elemente"
 
 #: cfg/circular-array.cfg:90
 msgid "Rotate items"
@@ -187,7 +187,7 @@ msgstr "Kommentar"
 
 #: cfg/comment.cfg:7
 msgid "<b>Add a comment</b>"
-msgstr "<b>Füge Kommentar hinzu</b>"
+msgstr "<b>Fuege Kommentar hinzu</b>"
 
 #: cfg/comment.cfg:11 cfg/group.cfg:23 cfg/proj_desc.cfg:16
 msgid "Note"
@@ -202,12 +202,12 @@ msgid ""
 "<b>Add gcode</b>&#10;lines will be parsed as usual so you can use &lt;"
 "eval>&lt;/eval>, '\\n'"
 msgstr ""
-"<b>Füge G-Code ein</b>&#10;Zeilen werden wie üblich verarbeitet, erlaubt ist "
-"&lt;eval>&lt;/eval>, '\\n'"
+"<b>Fuege G-Code ein</b>&#10;Zeilen werden wie ueblich verarbeitet, erlaubt "
+"ist &lt;eval>&lt;/eval>, '\\n'"
 
 #: cfg/gcode.cfg:14
 msgid "Disabling will exclude lines"
-msgstr "Abwählen schließt Zeilen aus"
+msgstr "Abwaehlen schließt Zeilen aus"
 
 #: cfg/gcode.cfg:17
 msgid "Lines"
@@ -293,15 +293,15 @@ msgstr "<b>Elemente in Gruppe zusammenfassen</b>"
 
 #: cfg/i_gcode.cfg:4
 msgid "Include Gcode"
-msgstr "GCode einfügen"
+msgstr "GCode einfuegen"
 
 #: cfg/i_gcode.cfg:7
 msgid "<b>Inserts a ngc file</b>"
-msgstr "<b>Gcode einfügen fügt ngc-Datei ein</b>"
+msgstr "<b>Gcode einfuegen fuegt ngc-Datei ein</b>"
 
 #: cfg/i_gcode.cfg:17
 msgid "Selected file"
-msgstr "Ausgewählten Datei"
+msgstr "Ausgewaehlten Datei"
 
 #: cfg/i_gcode.cfg:21
 msgid "Gcode file"
@@ -418,7 +418,7 @@ msgstr "Schrittzahl"
 #: cfg/lathe/taper_oda.cfg:87 cfg/lathe/taper_odl.cfg:81
 #: cfg/lathe/turning.cfg:94
 msgid "Or spring passes"
-msgstr "Anzahl Enddurchgänge ohne Zustellung"
+msgstr "Anzahl Enddurchgaenge ohne Zustellung"
 
 #: cfg/lathe/boring.cfg:75 cfg/lathe/facing.cfg:101 cfg/lathe/parting.cfg:88
 #: cfg/lathe/taper_ida.cfg:93 cfg/lathe/taper_idl.cfg:88
@@ -451,11 +451,11 @@ msgid ""
 "<b>Face end and optionnaly set this face to 0.0</b>&#10; Verify cutter "
 "orientation"
 msgstr ""
-"<b>Plandrehen und optional auf 0 setzen</b>&#10; Werkzeugausrichtung prüfen"
+"<b>Plandrehen und optional auf 0 setzen</b>&#10; Werkzeugausrichtung pruefen"
 
 #: cfg/lathe/facing.cfg:45 cfg/lathe/parting.cfg:53
 msgid "User defined=0:Current position=1:G-Code=2"
-msgstr "Benutzerdefinierten=0:Durch=1:Boden=2:G-Code=3"
+msgstr "Benutzerdefinierten=0:Aktuelle Position=1:G-Code=2"
 
 #: cfg/lathe/facing.cfg:47 cfg/mill/SHCS.cfg:154 cfg/mill/SHCS_slot-arc.cfg:188
 #: cfg/mill/SHCS_slot.cfg:185 cfg/mill/SHCS_slot2.cfg:169
@@ -483,7 +483,7 @@ msgstr "X-Offset"
 
 #: cfg/lathe/facing.cfg:70
 msgid "Length to remove"
-msgstr "Länge der Linie"
+msgstr "Laenge der Linie"
 
 #: cfg/lathe/facing.cfg:87 cfg/mill/probe-hole.cfg:37
 msgid "Touch off"
@@ -499,7 +499,7 @@ msgstr "Setze Achse auf 0"
 
 #: cfg/lathe/facing.cfg:102 cfg/lathe/parting.cfg:89
 msgid "Begin X must be greater than End X"
-msgstr "Start X muss größer sein als Ende X"
+msgstr "Start X muss groeßer sein als Ende X"
 
 #: cfg/lathe/facing.cfg:105
 msgid "#param_lr"
@@ -526,7 +526,7 @@ msgstr ""
 
 #: cfg/lathe/init-turning.cfg:16
 msgid "End offsets"
-msgstr "Größe und Offsets"
+msgstr "Groeße und Offsets"
 
 #: cfg/lathe/init-turning.cfg:20 cfg/mill/SHCS_slot.cfg:38
 #: cfg/mill/diamond.cfg:49 cfg/mill/drill-array.cfg:38
@@ -552,11 +552,11 @@ msgstr "Z"
 #: cfg/lathe/material.cfg:4 cfg/mill/material.cfg:4 cfg/plasma/material2d.cfg:4
 #: cfg/plasma/material3d.cfg:4
 msgid "Workpiece"
-msgstr "Werkstück"
+msgstr "Werkstueck"
 
 #: cfg/lathe/material.cfg:6
 msgid "<b>Workpiece or raw material used</b>"
-msgstr "<b>Werkstück oder Rohmaterial</b>"
+msgstr "<b>Werkstueck oder Rohmaterial</b>"
 
 #: cfg/lathe/material.cfg:10
 msgid "Show limits"
@@ -564,7 +564,7 @@ msgstr "Zeige Linie"
 
 #: cfg/lathe/material.cfg:15
 msgid "Size and coord"
-msgstr "Größe und Offsets"
+msgstr "Groeße und Offsets"
 
 #: cfg/lathe/material.cfg:19
 msgid "Ext. diameter"
@@ -581,7 +581,7 @@ msgstr "Nur wenn hohl"
 #: cfg/lathe/material.cfg:39 cfg/mill/polyline-polar.cfg:20
 #: cfg/plasma/polyline-polar.cfg:20
 msgid "Length"
-msgstr "Länge"
+msgstr "Laenge"
 
 #: cfg/lathe/material.cfg:49
 msgid "Begin position"
@@ -610,7 +610,7 @@ msgstr "Durchmesser=7;Radius=8"
 
 #: cfg/lathe/material.cfg:70
 msgid "Safe X rapid"
-msgstr "Sicherer X Abstand für Eilgang"
+msgstr "Sicherer X Abstand fuer Eilgang"
 
 #: cfg/lathe/material.cfg:77 cfg/lathe/material.cfg:85
 msgid "When job is done"
@@ -618,7 +618,7 @@ msgstr "Wenn fertig"
 
 #: cfg/lathe/material.cfg:81
 msgid "Safe Z rapid"
-msgstr "Sicherer Z Abstand für Eilgang"
+msgstr "Sicherer Z Abstand fuer Eilgang"
 
 #: cfg/lathe/material.cfg:94
 msgid "#param_od"
@@ -630,7 +630,7 @@ msgstr "#param_id"
 
 #: cfg/lathe/material.cfg:96
 msgid "External diameter must be greater than the internal"
-msgstr "Äußerer Durchmesser muss größer sein als der Innere"
+msgstr "Äußerer Durchmesser muss groeßer sein als der Innere"
 
 #: cfg/lathe/parting.cfg:4
 msgid "Parting Off"
@@ -662,7 +662,7 @@ msgstr "Kopien"
 
 #: cfg/lathe/parting.cfg:83
 msgid "Copies length will be 'First' minus 'Reference'"
-msgstr "Länge der Kopien ist 'Erste' Minus 'Referenz'"
+msgstr "Laenge der Kopien ist 'Erste' Minus 'Referenz'"
 
 #: cfg/lathe/parting.cfg:93
 msgid "Cutter orientation should be 6, 9 or 0"
@@ -800,7 +800,7 @@ msgstr "An der Achse entlang=0:Winkelig=1"
 #: cfg/lathe/taper_ida.cfg:94 cfg/lathe/taper_idl.cfg:89
 #: cfg/lathe/taper_oda.cfg:94
 msgid "Diameters must be different"
-msgstr "Durchmesser müssen unterschiedlich sein"
+msgstr "Durchmesser muessen unterschiedlich sein"
 
 #: cfg/lathe/taper_ida.cfg:98
 msgid "Cutter orientation should be 8, 3, 9 or 0"
@@ -832,7 +832,7 @@ msgstr "#param_e_x"
 
 #: cfg/lathe/taper_idl.cfg:93 cfg/lathe/taper_odl.cfg:88
 msgid "Begin Z must not be equal to End Z"
-msgstr "Start X muss größer sein als Ende X"
+msgstr "Start X muss groeßer sein als Ende X"
 
 #: cfg/lathe/taper_idl.cfg:97
 msgid "Cutter orientation should be 3, 8, 4, 9 or 0"
@@ -872,7 +872,7 @@ msgstr ""
 
 #: cfg/lathe/taper_odl.cfg:92
 msgid "Begin X must not be equal to End X"
-msgstr "Start X muss größer sein als Ende X"
+msgstr "Start X muss groeßer sein als Ende X"
 
 #: cfg/lathe/threading.cfg:4
 msgid "Threading"
@@ -909,7 +909,7 @@ msgstr "Anfang"
 #: cfg/mill/sel-drill.cfg:14 cfg/mill/sel-end-mill.cfg:14
 #: cfg/mill/sel-reamer.cfg:14 cfg/mill/sel-thread-mill.cfg:14
 msgid "Params will be set even if disabled"
-msgstr "Parameter werden gesetzt, auch wenn abgewählt"
+msgstr "Parameter werden gesetzt, auch wenn abgewaehlt"
 
 #: cfg/lathe/threading.cfg:29
 msgid "End Z"
@@ -945,7 +945,7 @@ msgstr "Innendurchmesser"
 
 #: cfg/lathe/threading.cfg:63
 msgid "User defined=0:Automatic=1:G-Code=2"
-msgstr "Benutzerdefinierten=0:Durch=1:Boden=2:G-Code=3"
+msgstr "Benutzerdefiniert=0:Automatisch=1:G-Code=2"
 
 #: cfg/lathe/threading.cfg:83 cfg/mill/thread-milling.cfg:178
 msgid "Pitch"
@@ -954,7 +954,7 @@ msgstr "Wurf"
 #: cfg/lathe/threading.cfg:87 cfg/mill/thread-milling.cfg:181
 msgid "Metric pitch is thread to thread, imperial is per inch"
 msgstr ""
-"Metrische Steigung ist Gewindegang zu Gewindegang, imperial ist Gänge pro "
+"Metrische Steigung ist Gewindegang zu Gewindegang, imperial ist Gaenge pro "
 "Inch"
 
 #: cfg/lathe/threading.cfg:92 cfg/mill/thread-milling.cfg:189
@@ -963,7 +963,7 @@ msgstr "Start"
 
 #: cfg/lathe/threading.cfg:95 cfg/mill/thread-milling.cfg:192
 msgid "Number of helix"
-msgstr "Zahl(Nummer) von Spirale-Anfängen"
+msgstr "Zahl(Nummer) von Spirale-Anfaengen"
 
 #: cfg/lathe/threading.cfg:105
 msgid "Depth degression"
@@ -971,7 +971,7 @@ msgstr "Tiefendegression (R)"
 
 #: cfg/lathe/threading.cfg:111
 msgid "1 = constant depth, 2 = constant area"
-msgstr "1 = Konstante Tiefe, 2 = Konstante Fläche"
+msgstr "1 = Konstante Tiefe, 2 = Konstante Flaeche"
 
 #: cfg/lathe/threading.cfg:114
 msgid "Thread peak"
@@ -979,7 +979,7 @@ msgstr "Gewindespitze (I)"
 
 #: cfg/lathe/threading.cfg:121
 msgid "Positive for external, negative for internal"
-msgstr "Positiv für Außen, negativ für Innen"
+msgstr "Positiv fuer Außen, negativ fuer Innen"
 
 #: cfg/lathe/threading.cfg:124
 msgid "Init thread depth"
@@ -991,7 +991,7 @@ msgstr "Tiefe der ersten Zustellung in Durchmesser-Werten"
 
 #: cfg/lathe/threading.cfg:135
 msgid "End taper"
-msgstr "Kegelförmig"
+msgstr "Kegelfoermig"
 
 #: cfg/lathe/threading.cfg:138
 msgid "None=0:On entry=1:On exit=2:Both=3"
@@ -1003,11 +1003,11 @@ msgstr "Startwinkel"
 
 #: cfg/lathe/threading.cfg:155
 msgid "Spring passes"
-msgstr "Anzahl Enddurchgänge ohne Zustellung"
+msgstr "Anzahl Enddurchgaenge ohne Zustellung"
 
 #: cfg/lathe/threading.cfg:168
 msgid "#param_d"
-msgstr "#param_od"
+msgstr "#param_d"
 
 #: cfg/lathe/threading.cfg:170
 msgid "Major diameter must be greater than minor diameter"
@@ -1034,8 +1034,8 @@ msgid ""
 "<b>Change Tool and/or settings</b>&#10;Changes setting accordingly even if "
 "disabled"
 msgstr ""
-"<b>Füge Schneideparameter hinzu</b>&#10;Ändert Einstellungen entsprechend, "
-"auch wenn abgewählt"
+"<b>Fuege Schneideparameter hinzu</b>&#10;Ändert Einstellungen entsprechend, "
+"auch wenn abgewaehlt"
 
 #: cfg/lathe/tool-change.cfg:17
 msgid "Tool and usage"
@@ -1051,27 +1051,27 @@ msgstr "Werkzeugnummer"
 #: cfg/mill/sel-end-mill.cfg:42 cfg/mill/sel-reamer.cfg:37
 #: cfg/mill/sel-thread-mill.cfg:33 cfg/mill/surf_finish.cfg:24
 msgid "Select from tool table"
-msgstr "Wähle aus Werkzeugtabelle"
+msgstr "Waehle aus Werkzeugtabelle"
 
 #: cfg/lathe/tool-change.cfg:29 cfg/mill/sel-end-mill.cfg:46
 msgid "Usage"
-msgstr "Einsatz für"
+msgstr "Einsatz fuer"
 
 #: cfg/lathe/tool-change.cfg:32 cfg/mill/sel-end-mill.cfg:49
 msgid "Roughing and finishing=0:Roughing=1:Finishing=2"
 msgstr ""
-"Schruppfräsen und Schlichtfräsen=0:Schruppen=1:Schlichten=2:Bohren=3:"
+"Schruppfraesen und Schlichtfraesen=0:Schruppen=1:Schlichten=2:Bohren=3:"
 "Gewindeschneiden=4"
 
 #: cfg/lathe/tool-change.cfg:33 cfg/mill/sel-end-mill.cfg:50
 msgid "Select usage for this tool"
-msgstr "Wähle Werkzeugeinsatzzweck"
+msgstr "Waehle Werkzeugeinsatzzweck"
 
 #: cfg/lathe/tool-change.cfg:38 cfg/mill/sel-drill.cfg:103
 #: cfg/mill/sel-end-mill.cfg:65 cfg/mill/sel-reamer.cfg:41
 #: cfg/mill/sel-thread-mill.cfg:37 cfg/mill/surf_finish.cfg:43
 msgid "Use length comp"
-msgstr "Längenkompensation benutzen"
+msgstr "Laengenkompensation benutzen"
 
 #: cfg/lathe/tool-change.cfg:41 cfg/mill/sel-drill.cfg:106
 #: cfg/mill/sel-end-mill.cfg:68 cfg/mill/sel-reamer.cfg:44
@@ -1089,7 +1089,7 @@ msgstr "G43 benutzen und Antasten wenn eingerichtet"
 #: cfg/mill/sel-end-mill.cfg:74 cfg/mill/sel-reamer.cfg:50
 #: cfg/mill/sel-thread-mill.cfg:46 cfg/mill/surf_finish.cfg:61
 msgid "Use cooling"
-msgstr "Kühlung"
+msgstr "Kuehlung"
 
 #: cfg/lathe/tool-change.cfg:50 cfg/mill/sel-drill.cfg:115
 #: cfg/mill/sel-end-mill.cfg:77 cfg/mill/sel-reamer.cfg:53
@@ -1101,7 +1101,7 @@ msgstr "Kein=9:Strahl=8:Nebel=7"
 #: cfg/mill/sel-end-mill.cfg:79 cfg/mill/sel-reamer.cfg:55
 #: cfg/mill/sel-thread-mill.cfg:51 cfg/mill/surf_finish.cfg:66
 msgid "Use flood, mist or none"
-msgstr "Kühlung mit Strahl, Nebel oder aus"
+msgstr "Kuehlung mit Strahl, Nebel oder aus"
 
 #: cfg/lathe/tool-change.cfg:56 cfg/mill/sel-drill.cfg:139
 #: cfg/mill/sel-end-mill.cfg:92 cfg/mill/sel-reamer.cfg:68
@@ -1115,7 +1115,7 @@ msgstr "Keine=0:Uhrzeigersinn=3:Gegenuhrzeigersinn=4"
 
 #: cfg/lathe/tool-change.cfg:61
 msgid "Select spindle rotation"
-msgstr "Wähle Bohrerdrehrichtung"
+msgstr "Waehle Bohrerdrehrichtung"
 
 #: cfg/lathe/tool-change.cfg:65
 msgid "Spindle control"
@@ -1169,7 +1169,7 @@ msgstr "Setze Spindeldrehzahl"
 
 #: cfg/lathe/tool-change.cfg:92
 msgid "Surface speed"
-msgstr "Oberfläche"
+msgstr "Oberflaeche"
 
 #: cfg/lathe/tool-change.cfg:97
 msgid "Constant spindle speed"
@@ -1177,7 +1177,7 @@ msgstr "Setze Spindeldrehzahl"
 
 #: cfg/lathe/tool-change.cfg:102
 msgid "Roughing"
-msgstr "Antasten"
+msgstr "Schruppen"
 
 #: cfg/lathe/tool-change.cfg:104
 msgid "Set these when usage is roughing"
@@ -1215,11 +1215,11 @@ msgstr "Setze diese Werte zum Bohren"
 
 #: cfg/lathe/tool-change.cfg:156
 msgid "Clearances"
-msgstr "Freifäume"
+msgstr "Freifaeume"
 
 #: cfg/lathe/tool-change.cfg:160
 msgid "Retract X"
-msgstr "Rückzug (R)"
+msgstr "Rueckzug (R)"
 
 #: cfg/lathe/tool-change.cfg:168 cfg/lathe/tool-change.cfg:190
 msgid "Retract distance on multiple passes"
@@ -1227,7 +1227,7 @@ msgstr "Rastabstand"
 
 #: cfg/lathe/tool-change.cfg:171
 msgid "Int. retract X"
-msgstr "Rückzug (R)"
+msgstr "Rueckzug (R)"
 
 #: cfg/lathe/tool-change.cfg:177
 msgid "Retract distance"
@@ -1235,7 +1235,7 @@ msgstr "Rastabstand"
 
 #: cfg/lathe/tool-change.cfg:182
 msgid "Retract Z"
-msgstr "Rückzug (R)"
+msgstr "Rueckzug (R)"
 
 #: cfg/lathe/tool-change.cfg:198
 msgid "param_mode"
@@ -1273,7 +1273,7 @@ msgstr ""
 
 #: cfg/lathe/turning.cfg:67 cfg/lathe/turning.cfg:79
 msgid "Less than cutter radius means no radius at end"
-msgstr "Weniger als der Fräserradius bedeutet keinen Radius am Ende"
+msgstr "Weniger als der Fraeserradius bedeutet keinen Radius am Ende"
 
 #: cfg/lathe/turning.cfg:71 cfg/lathe/turning.cfg:100
 msgid "param_r"
@@ -1301,9 +1301,9 @@ msgid ""
 "screw hole if tool is small enough&#10;<span foreground='blue' "
 "style='oblique'><b>Message possible in terminal window</b></span>"
 msgstr ""
-"<b>Erzeugt Senkung für eine Inbusschraube</b>&#10;Kann auch das "
+"<b>Erzeugt Senkung fuer eine Inbusschraube</b>&#10;Kann auch das "
 "Schraubenloch bohren&#10;<span foreground='blue' "
-"style='oblique'><b>Nachricht im Terminalfenster möglich</b></span>"
+"style='oblique'><b>Nachricht im Terminalfenster moeglich</b></span>"
 
 #: cfg/mill/SHCS.cfg:16 cfg/mill/SHCS_slot-arc.cfg:16 cfg/mill/SHCS_slot.cfg:16
 #: cfg/mill/SHCS_slot2.cfg:16 cfg/mill/circle-2.cfg:16 cfg/mill/circle-k.cfg:16
@@ -1337,7 +1337,7 @@ msgstr "Nur falls benutzt"
 #: cfg/mill/SHCS.cfg:50 cfg/mill/SHCS_slot-arc.cfg:89 cfg/mill/SHCS_slot.cfg:65
 #: cfg/mill/SHCS_slot2.cfg:62
 msgid "Select size"
-msgstr "Wähle Größe"
+msgstr "Waehle Groeße"
 
 #: cfg/mill/SHCS.cfg:52 cfg/mill/SHCS_slot-arc.cfg:91 cfg/mill/SHCS_slot.cfg:67
 #: cfg/mill/SHCS_slot2.cfg:64
@@ -1347,7 +1347,7 @@ msgstr "Zoll-Bruch=1:Metrisch=2:Zahl=3"
 #: cfg/mill/SHCS.cfg:54 cfg/mill/SHCS_slot-arc.cfg:93 cfg/mill/SHCS_slot.cfg:69
 #: cfg/mill/SHCS_slot2.cfg:66
 msgid "Select metric, fractional or numbered"
-msgstr "Wähle Metrisch, Bruchzahl, Nummeriert"
+msgstr "Waehle Metrisch, Bruchzahl, Nummeriert"
 
 #: cfg/mill/SHCS.cfg:60 cfg/mill/SHCS_slot-arc.cfg:99 cfg/mill/SHCS_slot.cfg:75
 #: cfg/mill/SHCS_slot2.cfg:72
@@ -1386,13 +1386,13 @@ msgstr "Senkungstiefe"
 #: cfg/mill/SHCS_slot.cfg:104 cfg/mill/SHCS_slot2.cfg:101
 msgid "User defined=0:Head clears surface=1:Maximum depth=2:G-Code=3"
 msgstr ""
-"Benutzerdefiniert=0:Schraubenkopf bündig mit Oberfläche=1:Maximale Tiefe=2"
+"Benutzerdefiniert=0:Schraubenkopf buendig mit Oberflaeche=1:Maximale Tiefe=2"
 
 #: cfg/mill/SHCS.cfg:92 cfg/mill/SHCS_slot-arc.cfg:131
 #: cfg/mill/SHCS_slot.cfg:107 cfg/mill/SHCS_slot2.cfg:104
 msgid "Or head under surface or&#10;leave material equal to screw diameter"
 msgstr ""
-"Oder Kopf unter Oberfläche oder&#10;Material in Dicke des "
+"Oder Kopf unter Oberflaeche oder&#10;Material in Dicke des "
 "Schraubendurchmesser stehen lassen"
 
 #: cfg/mill/SHCS.cfg:112 cfg/mill/SHCS_slot-arc.cfg:26
@@ -1406,8 +1406,8 @@ msgid ""
 "Diameter of washer used if any in usual units (specify a little larger to "
 "clear)"
 msgstr ""
-"Durchmesser der Unterlegscheibe, falls benutzt, in üblichen Einheiten (etwas "
-"größer definieren für lose Passung)"
+"Durchmesser der Unterlegscheibe, falls benutzt, in ueblichen Einheiten "
+"(etwas groeßer definieren fuer lose Passung)"
 
 #: cfg/mill/SHCS.cfg:127 cfg/mill/SHCS_slot-arc.cfg:161
 #: cfg/mill/SHCS_slot.cfg:157 cfg/mill/SHCS_slot2.cfg:142
@@ -1417,7 +1417,7 @@ msgstr "Dicke"
 #: cfg/mill/SHCS.cfg:133 cfg/mill/SHCS_slot-arc.cfg:167
 #: cfg/mill/SHCS_slot2.cfg:148
 msgid "Thickness of washer used if any in usual units"
-msgstr "Dicke der Unterlegscheibe, falls benutzt in üblicher Einheit"
+msgstr "Dicke der Unterlegscheibe, falls benutzt in ueblicher Einheit"
 
 #: cfg/mill/SHCS.cfg:137 cfg/mill/SHCS_slot-arc.cfg:171
 #: cfg/mill/SHCS_slot.cfg:168 cfg/mill/SHCS_slot2.cfg:152
@@ -1432,7 +1432,7 @@ msgstr "Dicke der Unterlegscheibe, falls benutzt in üblicher Einheit"
 #: cfg/mill/slot.cfg:89 cfg/mill/surf_finish.cfg:100
 #: cfg/mill/thread-milling.cfg:62
 msgid "Milling"
-msgstr "Fräsen"
+msgstr "Fraesen"
 
 #: cfg/mill/SHCS.cfg:143 cfg/mill/SHCS_slot-arc.cfg:177
 #: cfg/mill/SHCS_slot.cfg:175 cfg/mill/SHCS_slot2.cfg:158
@@ -1491,7 +1491,7 @@ msgstr "Start Schnitt"
 #: cfg/mill/thread-milling.cfg:96
 msgid "User defined=0:Surface=1:Half=2:One quarter=3:Three quarter=4:G-Code=5"
 msgstr ""
-"Benutzerdefiniert=0:Oberfläche=1:Halb=2:Viertel=3:Dreiviertel=4:G-Code=5"
+"Benutzerdefiniert=0:Oberflaeche=1:Halb=2:Viertel=3:Dreiviertel=4:G-Code=5"
 
 #: cfg/mill/SHCS.cfg:190 cfg/mill/SHCS_slot-arc.cfg:224
 #: cfg/mill/SHCS_slot.cfg:221 cfg/mill/SHCS_slot2.cfg:205
@@ -1508,7 +1508,7 @@ msgstr "Schnitt bis"
 #: cfg/mill/SHCS.cfg:192 cfg/mill/SHCS_slot-arc.cfg:226
 #: cfg/mill/SHCS_slot.cfg:223 cfg/mill/SHCS_slot2.cfg:207
 msgid "User defined=0:Through=1:Bottom=2:G-Code=3"
-msgstr "Benutzerdefinierten=0:Durch=1:Boden=2:G-Code=3"
+msgstr "Benutzerdefinierten=0:Durch Werkstueck=1:Boden=2:G-Code=3"
 
 #: cfg/mill/SHCS.cfg:194 cfg/mill/SHCS_slot-arc.cfg:228
 #: cfg/mill/SHCS_slot.cfg:225 cfg/mill/SHCS_slot2.cfg:209
@@ -1525,9 +1525,9 @@ msgid ""
 "the screw slot&#10;<span foreground='blue' style='oblique'><b>Message "
 "possible in terminal window</b></span>"
 msgstr ""
-"<b>Erzeugt Kreisbogennut für eine Inbusschraube</b>&#10;Schraubennut wird "
-"gefräst&#10;<span foreground='blue' style='oblique'><b>Nachricht im "
-"Terminalfenster möglich</b></span>"
+"<b>Erzeugt Kreisbogennut fuer eine Inbusschraube</b>&#10;Schraubennut wird "
+"gefraest&#10;<span foreground='blue' style='oblique'><b>Nachricht im "
+"Terminalfenster moeglich</b></span>"
 
 #: cfg/mill/SHCS_slot-arc.cfg:32 cfg/mill/SHCS_slot-arc.cfg:42
 #: cfg/mill/SHCS_slot-arc.cfg:51
@@ -1577,7 +1577,7 @@ msgstr "Benutzerdefinierter Start"
 
 #: cfg/mill/SHCS_slot.cfg:4
 msgid "SHCS CBore Slot"
-msgstr "Inbus Nut für Senkung"
+msgstr "Inbus Nut fuer Senkung"
 
 #: cfg/mill/SHCS_slot.cfg:6
 msgid ""
@@ -1585,16 +1585,16 @@ msgid ""
 "screw</b>&#10;Will mill the screw slot&#10;<span foreground='blue' "
 "style='oblique'><b>Message possible in terminal window</b></span>"
 msgstr ""
-"<b>Erzeugt eine Senklochnut von gegebenem punkt für eine Inbusschraube</"
-"b>&#10;Fräst auch das Schraubenloch&#10;<span foreground='blue' "
-"style='oblique'><b>nachricht im Terminalfenster möglich</b></span>"
+"<b>Erzeugt eine Senklochnut von gegebenem punkt fuer eine Inbusschraube</"
+"b>&#10;Fraest auch das Schraubenloch&#10;<span foreground='blue' "
+"style='oblique'><b>nachricht im Terminalfenster moeglich</b></span>"
 
 #: cfg/mill/SHCS_slot.cfg:34 cfg/mill/diamond.cfg:26 cfg/mill/ellipse.cfg:26
 #: cfg/mill/polygon.cfg:26 cfg/mill/rectangle.cfg:26 cfg/mill/slot.cfg:26
 #: cfg/plasma/ellipse.cfg:26 cfg/plasma/polygon.cfg:26
 #: cfg/plasma/rectangle.cfg:26 cfg/plasma/slot.cfg:26
 msgid "Size, rotation"
-msgstr "Größe, Drehung"
+msgstr "Groeße, Drehung"
 
 #: cfg/mill/SHCS_slot.cfg:42 cfg/mill/drill-array.cfg:41
 msgid "X reference"
@@ -1638,11 +1638,11 @@ msgstr "X,Y-Zentrum der Nut oder linkes Ende"
 
 #: cfg/mill/SHCS_slot.cfg:127 cfg/mill/slot.cfg:68 cfg/plasma/slot.cfg:68
 msgid "Effective length"
-msgstr "Effektive Länge"
+msgstr "Effektive Laenge"
 
 #: cfg/mill/SHCS_slot.cfg:131 cfg/mill/slot.cfg:72 cfg/plasma/slot.cfg:72
 msgid "Length between center of arcs"
-msgstr "Länge zwischen den Kreisbogenzentren"
+msgstr "Laenge zwischen den Kreisbogenzentren"
 
 #: cfg/mill/SHCS_slot.cfg:136 cfg/mill/circle-2.cfg:76
 #: cfg/mill/circle-k.cfg:118 cfg/mill/circle.cfg:110 cfg/mill/diamond.cfg:107
@@ -1670,11 +1670,11 @@ msgstr "Diameter der gebrauchten(benutzten) Waschmaschine wenn irgendwelcher"
 
 #: cfg/mill/SHCS_slot.cfg:164
 msgid "Thickness of washer used if any"
-msgstr "Stärke der gebrauchten(benutzten) Waschmaschine wenn irgendwelcher"
+msgstr "Staerke der gebrauchten(benutzten) Waschmaschine wenn irgendwelcher"
 
 #: cfg/mill/SHCS_slot2.cfg:4
 msgid "SHCS CBore Slot 2"
-msgstr "Kreisnut für Inbusschraube"
+msgstr "Kreisnut fuer Inbusschraube"
 
 #: cfg/mill/SHCS_slot2.cfg:6
 msgid ""
@@ -1682,9 +1682,9 @@ msgid ""
 "b>&#10;Will mill the screw slot&#10;<span foreground='blue' "
 "style='oblique'><b>Message possible in terminal window</b></span>"
 msgstr ""
-"<b>Erzeugt Langnut für Inbusschraube mit zwei gegebenen Punkten</b>&#10;"
-"Schraubenloch wird gefräst&#10;<span foreground='blue' "
-"style='oblique'><b>Nachricht im Terminalfenster möglich</b></span>"
+"<b>Erzeugt Langnut fuer Inbusschraube mit zwei gegebenen Punkten</b>&#10;"
+"Schraubenloch wird gefraest&#10;<span foreground='blue' "
+"style='oblique'><b>Nachricht im Terminalfenster moeglich</b></span>"
 
 #: cfg/mill/SHCS_slot2.cfg:26 cfg/mill/circle-2.cfg:26
 #: cfg/mill/polyline-mirror-i.cfg:56 cfg/mill/slot-2.cfg:26
@@ -1744,7 +1744,7 @@ msgstr "Erster Endpunkt des Durchmessers"
 #: cfg/mill/circle-2.cfg:47 cfg/mill/circle-2.cfg:56 cfg/plasma/circle-2.cfg:47
 #: cfg/plasma/circle-2.cfg:56
 msgid "Opposite end of the diameter"
-msgstr "Gegenüberliegender Endpunkt des Durchmessers"
+msgstr "Gegenueberliegender Endpunkt des Durchmessers"
 
 #: cfg/mill/circle-2.cfg:62 cfg/mill/circle.cfg:96 cfg/plasma/circle-2.cfg:62
 #: cfg/plasma/circle.cfg:73
@@ -1759,7 +1759,7 @@ msgstr "Enfernen"
 #: cfg/mill/circle-2.cfg:70 cfg/mill/circle.cfg:104 cfg/plasma/circle-2.cfg:70
 #: cfg/plasma/circle.cfg:81
 msgid "Height to remove from diameter"
-msgstr "Vom Durchmesser zu entfernende Höhe"
+msgstr "Vom Durchmesser zu entfernende Hoehe"
 
 #: cfg/mill/circle-2.cfg:80 cfg/mill/circle.cfg:114 cfg/plasma/circle-2.cfg:80
 #: cfg/plasma/circle.cfg:91
@@ -1796,7 +1796,7 @@ msgstr "Innerhalb normal=0:Tasche=1:Auf der Linie=2:Außerhalb=3"
 #: cfg/plasma/rectangle.cfg:130 cfg/plasma/slot-2.cfg:81
 #: cfg/plasma/slot-arc.cfg:110 cfg/plasma/slot.cfg:98
 msgid "Select tool path"
-msgstr "Wähle Werkzeugpfad"
+msgstr "Waehle Werkzeugpfad"
 
 #: cfg/mill/circle-2.cfg:99 cfg/mill/circle-k.cfg:141 cfg/mill/circle.cfg:133
 #: cfg/mill/diamond.cfg:130 cfg/mill/ellipse.cfg:121 cfg/mill/polygon.cfg:92
@@ -1822,7 +1822,7 @@ msgid ""
 "User defined=0:Through=1:Bottom=2:Half=3:One quarter=4:Three quarter=5:G-"
 "Code=6"
 msgstr ""
-"Benutzerdefiniert=0:Durch Werkstück=1:Bis auf Boden=2:Halb=3:Viertel=4:"
+"Benutzerdefiniert=0:Durch Werkstueck=1:Bis auf Boden=2:Halb=3:Viertel=4:"
 "Dreiviertel=5:G-Code=6"
 
 #: cfg/mill/circle-2.cfg:158 cfg/mill/diamond.cfg:189
@@ -1840,7 +1840,7 @@ msgstr "Benutzerdefinierte Tiefe"
 #: cfg/mill/rectangle.cfg:30 cfg/mill/slot-2.cfg:157 cfg/mill/slot-arc.cfg:186
 #: cfg/mill/slot.cfg:173
 msgid "Finishing pass"
-msgstr "Schlichtfräsen"
+msgstr "Schlichtfraesen"
 
 #: cfg/mill/circle-2.cfg:172 cfg/mill/circle-k.cfg:32 cfg/mill/circle.cfg:32
 #: cfg/mill/diamond.cfg:32 cfg/mill/ellipse.cfg:194 cfg/mill/polygon.cfg:165
@@ -1857,21 +1857,21 @@ msgstr ""
 #: cfg/mill/ellipse.cfg:195 cfg/mill/polygon.cfg:166 cfg/mill/slot-2.cfg:160
 #: cfg/mill/slot-arc.cfg:189 cfg/mill/slot.cfg:176
 msgid "Conventional for better finish"
-msgstr "Konventionell für bessere Oberfläche"
+msgstr "Konventionell fuer bessere Oberflaeche"
 
 #: cfg/mill/circle-2.cfg:179 cfg/mill/circle-k.cfg:39 cfg/mill/circle.cfg:39
 #: cfg/mill/diamond.cfg:39 cfg/mill/ellipse.cfg:201 cfg/mill/polygon.cfg:172
 #: cfg/mill/rectangle.cfg:39 cfg/mill/slot-2.cfg:166 cfg/mill/slot-arc.cfg:195
 #: cfg/mill/slot.cfg:182
 msgid "Finishing cut"
-msgstr "Schlichtfrästiefe"
+msgstr "Schlichtfraestiefe"
 
 #: cfg/mill/circle-2.cfg:184 cfg/mill/circle-k.cfg:44 cfg/mill/circle.cfg:44
 #: cfg/mill/diamond.cfg:44 cfg/mill/ellipse.cfg:206 cfg/mill/polygon.cfg:177
 #: cfg/mill/rectangle.cfg:44 cfg/mill/slot-2.cfg:171 cfg/mill/slot-arc.cfg:200
 #: cfg/mill/slot.cfg:187
 msgid "Last finishing cut"
-msgstr "Letzter Schlichtfräsgang"
+msgstr "Letzter Schlichtfraesgang"
 
 #: cfg/mill/circle-k.cfg:4
 msgid "Circle Key"
@@ -1942,7 +1942,7 @@ msgstr "Feder / Nut"
 #: cfg/mill/circle-k.cfg:100 cfg/mill/diamond.cfg:96 cfg/mill/rectangle.cfg:96
 #: cfg/plasma/rectangle.cfg:77
 msgid "Height"
-msgstr "Höhe"
+msgstr "Hoehe"
 
 #: cfg/mill/circle-k.cfg:103
 msgid ""
@@ -1950,7 +1950,7 @@ msgid ""
 "positive for key, negative for keyway"
 msgstr ""
 "Von außen\n"
-"positiv für Feder, negativ für Nut"
+"positiv fuer Feder, negativ fuer Nut"
 
 #: cfg/mill/circle-k.cfg:109 cfg/mill/diamond.cfg:85 cfg/mill/rectangle.cfg:85
 #: cfg/mill/slot-2.cfg:62 cfg/mill/slot-arc.cfg:91 cfg/mill/slot.cfg:57
@@ -1977,7 +1977,7 @@ msgstr "Kreis mit Zentrum"
 
 #: cfg/mill/circle.cfg:6 cfg/plasma/circle.cfg:6
 msgid "<b>Create a Circle from it's center</b>&#10;Can add a flat"
-msgstr "<b>Erzeuge Kreis vom Zentrum aus</b>&#10;Abflachung (D-Loch) möglich"
+msgstr "<b>Erzeuge Kreis vom Zentrum aus</b>&#10;Abflachung (D-Loch) moeglich"
 
 #: cfg/mill/diamond.cfg:4
 msgid "Diamond"
@@ -1989,7 +1989,7 @@ msgstr "<b>Gewinde schneiden</b>"
 
 #: cfg/mill/diamond.cfg:33 cfg/mill/rectangle.cfg:33
 msgid "Usualy conventional has better finish"
-msgstr "Konventionell erzeugt meist bessere Oberfläche"
+msgstr "Konventionell erzeugt meist bessere Oberflaeche"
 
 #: cfg/mill/diamond.cfg:53 cfg/mill/diamond.cfg:71 cfg/mill/rectangle.cfg:53
 #: cfg/mill/rectangle.cfg:71 cfg/plasma/rectangle.cfg:34
@@ -2013,7 +2013,7 @@ msgstr "<b>Bohre in Zeilen</b>"
 
 #: cfg/mill/drill-array.cfg:27 cfg/rectangular-array.cfg:42
 msgid "Size and offsets"
-msgstr "Größe und Offsets"
+msgstr "Groeße und Offsets"
 
 #: cfg/mill/drill-array.cfg:34 cfg/mill/drill-circle.cfg:31
 #: cfg/mill/drill-single.cfg:44
@@ -2078,16 +2078,16 @@ msgid ""
 "User defined=0:Through=1:Center drill depth=2:Bottom=3:Half=4:One quarter=5:"
 "Three quarter=6:G-Code=7"
 msgstr ""
-"Benutzerdefiniert=0:Durch Werkstück=1:Bohrungstiefe zentrale Bohrung=2:Boden "
-"des Werkstücks=3:Halb=4:Viertel=5:Dreiviertel=6:G-Code=7"
+"Benutzerdefiniert=0:Durch Werkstueck=1:Bohrungstiefe zentrale Bohrung=2:"
+"Boden des Werkstuecks=3:Halb=4:Viertel=5:Dreiviertel=6:G-Code=7"
 
 #: cfg/mill/drill-circle-irr.cfg:4
 msgid "Drill Irr Circle"
-msgstr "Bohre irreguläre Kreisteilung"
+msgstr "Bohre irregulaere Kreisteilung"
 
 #: cfg/mill/drill-circle-irr.cfg:6
 msgid "<b>Drill Irregular Circle</b>"
-msgstr "<b>Bohre irreguläre Kreisteilung</b>"
+msgstr "<b>Bohre irregulaere Kreisteilung</b>"
 
 #: cfg/mill/drill-circle-irr.cfg:27
 msgid "Count, positions"
@@ -2140,7 +2140,7 @@ msgstr "Bohre auf Kreisteilung"
 
 #: cfg/mill/drill-circle.cfg:6
 msgid "<b>Drill a Regular Circle</b>"
-msgstr "<b>Bohre regelmäßige Kreisteilung</b>"
+msgstr "<b>Bohre regelmaeßige Kreisteilung</b>"
 
 #: cfg/mill/drill-circle.cfg:27
 msgid "Count, start, end"
@@ -2156,7 +2156,7 @@ msgstr "Durchmesser=1:Abstand zwischen Bohrungen=0"
 
 #: cfg/mill/drill-circle.cfg:56
 msgid "Select dimension option"
-msgstr "Wähle Dimensionierungsoption"
+msgstr "Waehle Dimensionierungsoption"
 
 #: cfg/mill/drill-circle.cfg:61
 msgid "Dimension"
@@ -2176,7 +2176,7 @@ msgstr "Winkelbereich"
 
 #: cfg/mill/drill-circle.cfg:95
 msgid "Angle covered by holes"
-msgstr "Ausgefüllter Winkelbereich"
+msgstr "Ausgefuellter Winkelbereich"
 
 #: cfg/mill/drill-single.cfg:4
 msgid "Drill Single"
@@ -2225,11 +2225,11 @@ msgstr "Radius in der Y-Achse"
 
 #: cfg/mill/ellipse.cfg:98 cfg/plasma/ellipse.cfg:98
 msgid "Control points"
-msgstr "Stützpunkte"
+msgstr "Stuetzpunkte"
 
 #: cfg/mill/ellipse.cfg:103 cfg/plasma/ellipse.cfg:103
 msgid "Per quadrant, smoother with more"
-msgstr "Pro Quadrant, glatter mit größerer Zahl"
+msgstr "Pro Quadrant, glatter mit groeßerer Zahl"
 
 #: cfg/mill/index-axisA.cfg:4
 msgid "A indexing"
@@ -2241,7 +2241,7 @@ msgstr "<b>A-Achse drehen</b>"
 
 #: cfg/mill/index-axisA.cfg:14
 msgid "Disabling will NOT disable items"
-msgstr "Abwählen betrifft nicht die Elemente"
+msgstr "Abwaehlen betrifft nicht die Elemente"
 
 #: cfg/mill/index-axisA.cfg:21 cfg/mill/index-axisA.cfg:25
 msgid "Number of steps"
@@ -2254,16 +2254,16 @@ msgstr "Winkelbereich aller Elemente"
 #: cfg/mill/material.cfg:6 cfg/plasma/material2d.cfg:6
 #: cfg/plasma/material3d.cfg:6
 msgid "<b>Workpiece or Raw material used</b>"
-msgstr "<b>Werkstück oder Rohmaterial</b>"
+msgstr "<b>Werkstueck oder Rohmaterial</b>"
 
 #: cfg/mill/material.cfg:10 cfg/plasma/material2d.cfg:10
 #: cfg/plasma/material3d.cfg:10
 msgid "Show workpiece"
-msgstr "Zeige Werkstück"
+msgstr "Zeige Werkstueck"
 
 #: cfg/mill/material.cfg:25
 msgid "Milling params"
-msgstr "Fräsparameter"
+msgstr "Fraesparameter"
 
 #: cfg/mill/material.cfg:31 cfg/plasma/material2d.cfg:27
 #: cfg/plasma/material3d.cfg:27
@@ -2278,7 +2278,7 @@ msgstr "Y0"
 #: cfg/mill/material.cfg:49 cfg/plasma/material2d.cfg:45
 #: cfg/plasma/material3d.cfg:45
 msgid "Surface"
-msgstr "Oberfläche"
+msgstr "Oberflaeche"
 
 #: cfg/mill/material.cfg:60 cfg/plasma/material2d.cfg:57
 #: cfg/plasma/material3d.cfg:56 cfg/rectangular-array.cfg:28
@@ -2303,7 +2303,7 @@ msgstr "Bestimme Z-Referenz"
 #: cfg/mill/material.cfg:82 cfg/plasma/material2d.cfg:79
 #: cfg/plasma/material3d.cfg:78
 msgid "Height (Y)"
-msgstr "Höhe (Y)"
+msgstr "Hoehe (Y)"
 
 #: cfg/mill/material.cfg:85 cfg/mill/probe-stock.cfg:42
 #: cfg/plasma/material2d.cfg:82 cfg/plasma/material3d.cfg:81
@@ -2327,7 +2327,7 @@ msgstr "Z-Abstand"
 
 #: cfg/mill/material.cfg:118
 msgid "Above surface or cut start"
-msgstr "Über Oberfläche oder Schnittstart"
+msgstr "Über Oberflaeche oder Schnittstart"
 
 #: cfg/mill/material.cfg:126 cfg/plasma/cutting-params2d.cfg:79
 #: cfg/plasma/cutting-params3d.cfg:75
@@ -2341,7 +2341,7 @@ msgstr "Eilgang bis Z-Abstand"
 
 #: cfg/mill/material.cfg:137
 msgid "Clear through"
-msgstr "Freifräsen bis"
+msgstr "Freifraesen bis"
 
 #: cfg/mill/material.cfg:140
 msgid "Past bottom"
@@ -2380,7 +2380,7 @@ msgstr "Wanddicke"
 #: cfg/mill/material.cfg:176 cfg/plasma/material2d.cfg:142
 #: cfg/plasma/material3d.cfg:139
 msgid "Define if hollow"
-msgstr "Festlegen falls Hohlkörper"
+msgstr "Festlegen falls Hohlkoerper"
 
 #: cfg/mill/polygon.cfg:4 cfg/plasma/polygon.cfg:4
 msgid "Polygon"
@@ -2415,8 +2415,8 @@ msgid ""
 "<b>Add an arc to a polyline</b>&#10;Define I and J offsets, angle and "
 "direction"
 msgstr ""
-"<b>Füge Kreisbogen an Polylinie</b>&#10;Bestimme I und J Offsets, Winkel und "
-"Richtung"
+"<b>Fuege Kreisbogen an Polylinie</b>&#10;Bestimme I und J Offsets, Winkel "
+"und Richtung"
 
 #: cfg/mill/polyline-arc-ij.cfg:10 cfg/mill/polyline-arc-m.cfg:10
 #: cfg/mill/polyline-arc-polar.cfg:10 cfg/mill/polyline-arc-to.cfg:10
@@ -2428,7 +2428,7 @@ msgstr ""
 #: cfg/plasma/polyline-mirror-i.cfg:20 cfg/plasma/polyline-polar.cfg:50
 #: cfg/plasma/polyline-to.cfg:48 cfg/plasma/polyline.cfg:18
 msgid "Link"
-msgstr "Verknüpfung"
+msgstr "Verknuepfung"
 
 #: cfg/mill/polyline-arc-ij.cfg:12 cfg/mill/polyline-arc-m.cfg:12
 #: cfg/mill/polyline-arc-polar.cfg:12 cfg/mill/polyline-arc-to.cfg:12
@@ -2440,7 +2440,7 @@ msgstr "Verknüpfung"
 #: cfg/plasma/polyline-mirror-i.cfg:22 cfg/plasma/polyline-polar.cfg:52
 #: cfg/plasma/polyline-to.cfg:50 cfg/plasma/polyline.cfg:21
 msgid "Link style with previous item"
-msgstr "Verknüpfe Stil mit vorherigem Element"
+msgstr "Verknuepfe Stil mit vorherigem Element"
 
 #: cfg/mill/polyline-arc-ij.cfg:15 cfg/mill/polyline-arc-m.cfg:15
 #: cfg/mill/polyline-arc-polar.cfg:15 cfg/mill/polyline-arc-to.cfg:15
@@ -2467,7 +2467,7 @@ msgstr "Typ"
 #: cfg/plasma/polyline-polar.cfg:58 cfg/plasma/polyline-to.cfg:56
 #: cfg/plasma/polyline.cfg:88 cfg/plasma/rectangle.cfg:105
 msgid "None=0:Rounded=1:Beveled=2:Inverted Round=3"
-msgstr "Keine=0:Rund=1:Abgeschrägt=2:Invertiert rund=3"
+msgstr "Keine=0:Rund=1:Abgeschraegt=2:Invertiert rund=3"
 
 #: cfg/mill/polyline-arc-ij.cfg:20 cfg/mill/polyline-arc-m.cfg:20
 #: cfg/mill/polyline-arc-polar.cfg:20 cfg/mill/polyline-arc-to.cfg:20
@@ -2478,7 +2478,7 @@ msgstr "Keine=0:Rund=1:Abgeschrägt=2:Invertiert rund=3"
 #: cfg/plasma/polyline-arc-top.cfg:20 cfg/plasma/polyline-mirror-i.cfg:34
 #: cfg/plasma/polyline-to.cfg:58 cfg/plasma/polyline.cfg:90
 msgid "Select link type"
-msgstr "Auswahl Verknüpfungstyp"
+msgstr "Auswahl Verknuepfungstyp"
 
 #: cfg/mill/polyline-arc-ij.cfg:29 cfg/mill/polyline-arc-m.cfg:29
 #: cfg/mill/polyline-arc-polar.cfg:29 cfg/mill/polyline-arc-to.cfg:29
@@ -2491,7 +2491,7 @@ msgstr "Auswahl Verknüpfungstyp"
 #: cfg/plasma/polyline-polar.cfg:69 cfg/plasma/polyline-to.cfg:67
 #: cfg/plasma/polyline.cfg:99 cfg/plasma/rectangle.cfg:116
 msgid "Radius for rounded or distance from apex"
-msgstr "Radius für Abrundung oder Abstand vom Scheitelpunkt"
+msgstr "Radius fuer Abrundung oder Abstand vom Scheitelpunkt"
 
 #: cfg/mill/polyline-arc-ij.cfg:34 cfg/mill/polyline-arc-m.cfg:34
 #: cfg/mill/polyline-arc-polar.cfg:34 cfg/mill/polyline-arc-to.cfg:34
@@ -2515,7 +2515,7 @@ msgstr "Komplement"
 #: cfg/plasma/polyline-mirror-i.cfg:52 cfg/plasma/polyline-polar.cfg:78
 #: cfg/plasma/polyline-to.cfg:76 cfg/plasma/polyline.cfg:108
 msgid "Reverse direction of tool path for rounded or inverted round"
-msgstr "Werkzeugpfad umkehren für (invertierte) Abrundung"
+msgstr "Werkzeugpfad umkehren fuer (invertierte) Abrundung"
 
 #: cfg/mill/polyline-arc-ij.cfg:47 cfg/mill/polyline-arc-ij.cfg:57
 #: cfg/mill/polyline-arc-m.cfg:69 cfg/mill/polyline-arc-m.cfg:79
@@ -2540,7 +2540,7 @@ msgstr "Global=0:Speziell=1"
 #: cfg/mill/polyline-arc-top.cfg:54 cfg/mill/polyline-polar.cfg:94
 #: cfg/mill/polyline-to.cfg:92 cfg/mill/polyline.cfg:269
 msgid "Tool engagement for this segment"
-msgstr "Werkzeugeingriff für dieses Segment"
+msgstr "Werkzeugeingriff fuer dieses Segment"
 
 #: cfg/mill/polyline-arc-ij.cfg:73 cfg/mill/polyline-arc-m.cfg:95
 #: cfg/mill/polyline-arc-polar.cfg:73 cfg/plasma/polyline-arc-ij.cfg:48
@@ -2614,7 +2614,7 @@ msgid ""
 "<b>Add an mirrored arc to a polyline</b>&#10;Define mirror line, I and J "
 "offsets, angle and direction"
 msgstr ""
-"<b>Füge gespiegelten Kreisbogen an Polylinie</b>&#10;Bestimme Spiegellinie, "
+"<b>Fuege gespiegelten Kreisbogen an Polylinie</b>&#10;Bestimme Spiegellinie, "
 "I und J offsets, Winkel und Richtung"
 
 #: cfg/mill/polyline-arc-m.cfg:42 cfg/mill/polyline-arc-m.cfg:50
@@ -2646,7 +2646,7 @@ msgid ""
 "<b>Add an arc to a polyline</b>&#10;Define center at polar position, angle "
 "where it ends and direction"
 msgstr ""
-"<b>Füge Kreisbogen an Polylinie</b>&#10;Lege Zentrum an "
+"<b>Fuege Kreisbogen an Polylinie</b>&#10;Lege Zentrum an "
 "Polarkoordinatenposition mit Endwinkel und Richtung fest"
 
 #: cfg/mill/polyline-arc-polar.cfg:77 cfg/plasma/polyline-arc-polar.cfg:52
@@ -2684,8 +2684,8 @@ msgid ""
 "<b>Add an arc to a polyline</b>&#10;Define destination, dir and arc height "
 "or radius"
 msgstr ""
-"<b>Füge Kreisbogen an Polylinie</b>&#10;Bestimme Ziel, Richtung und "
-"Bogenhöhe oder -radius"
+"<b>Fuege Kreisbogen an Polylinie</b>&#10;Bestimme Ziel, Richtung und "
+"Bogenhoehe oder -radius"
 
 #: cfg/mill/polyline-arc-to.cfg:73 cfg/plasma/polyline-arc-to.cfg:48
 msgid "Arc end coords"
@@ -2714,7 +2714,7 @@ msgstr "Relativ=4:Absolut=5:X relativ, Y absolut=41:X absolut, Y relativ=42"
 #: cfg/mill/polyline-arc-to.cfg:100 cfg/mill/polyline-to.cfg:44
 #: cfg/plasma/polyline-arc-to.cfg:75 cfg/plasma/polyline-to.cfg:44
 msgid "Select Relative or Absolute"
-msgstr "Wähle relativ oder absolut"
+msgstr "Waehle relativ oder absolut"
 
 #: cfg/mill/polyline-arc-to.cfg:105 cfg/mill/polyline-arc-top.cfg:98
 #: cfg/mill/polyline-polar.cfg:17 cfg/plasma/polyline-arc-to.cfg:80
@@ -2732,13 +2732,13 @@ msgstr "Definiere Kreisbogen"
 #: cfg/mill/polyline.cfg:232 cfg/plasma/polyline-arc-to.cfg:88
 #: cfg/plasma/polyline-arc-top.cfg:81 cfg/plasma/polyline.cfg:160
 msgid "Radius=0:Arc height=1"
-msgstr "Radius=0:Kreisbogenhöhe=1"
+msgstr "Radius=0:Kreisbogenhoehe=1"
 
 #: cfg/mill/polyline-arc-to.cfg:115 cfg/mill/polyline-arc-top.cfg:108
 #: cfg/mill/polyline.cfg:234 cfg/plasma/polyline-arc-to.cfg:90
 #: cfg/plasma/polyline-arc-top.cfg:83 cfg/plasma/polyline.cfg:162
 msgid "Select value defined"
-msgstr "Wähle bestimmten Wert"
+msgstr "Waehle bestimmten Wert"
 
 #: cfg/mill/polyline-arc-to.cfg:138 cfg/mill/polyline-arc-top.cfg:131
 #: cfg/mill/polyline.cfg:248 cfg/plasma/polyline-arc-to.cfg:113
@@ -2750,7 +2750,7 @@ msgstr "Klappe Zentrum"
 #: cfg/mill/polyline.cfg:253 cfg/plasma/polyline-arc-to.cfg:118
 #: cfg/plasma/polyline-arc-top.cfg:111 cfg/plasma/polyline.cfg:181
 msgid "Center opposite side of chord"
-msgstr "Dem Zentrum gegenüberliegende Seite der Sehne"
+msgstr "Dem Zentrum gegenueberliegende Seite der Sehne"
 
 #: cfg/mill/polyline-arc-top.cfg:4 cfg/plasma/polyline-arc-top.cfg:4
 msgid "Arc To Polar"
@@ -2761,8 +2761,8 @@ msgid ""
 "<b>Add an arc to a polyline</b>&#10;Define polar destination, dir and arc "
 "height or radius"
 msgstr ""
-"<b>Füge Kreisbogen an Polylinie</b>&#10;Definiere Endpunkt in "
-"Polarkoordinaten, Richung und Höhe oder Radius des Kreisbogens"
+"<b>Fuege Kreisbogen an Polylinie</b>&#10;Definiere Endpunkt in "
+"Polarkoordinaten, Richung und Hoehe oder Radius des Kreisbogens"
 
 #: cfg/mill/polyline-arc-top.cfg:73 cfg/plasma/polyline-arc-top.cfg:48
 msgid "Arc end"
@@ -2770,7 +2770,7 @@ msgstr "Kreisbogenende"
 
 #: cfg/mill/polyline-arc-top.cfg:77 cfg/plasma/polyline-arc-top.cfg:52
 msgid "Chord length"
-msgstr "Sehnenlänge"
+msgstr "Sehnenlaenge"
 
 #: cfg/mill/polyline-arc-top.cfg:82 cfg/plasma/polyline-arc-top.cfg:57
 msgid "Center of arc will be calculated"
@@ -2813,7 +2813,7 @@ msgstr ""
 
 #: cfg/mill/polyline-mirror-i.cfg:109 cfg/plasma/polyline-mirror-i.cfg:109
 msgid "Arc height"
-msgstr "Kreisbogenhöhe"
+msgstr "Kreisbogenhoehe"
 
 #: cfg/mill/polyline-mirror-p.cfg:4 cfg/plasma/polyline-mirror-p.cfg:4
 msgid "Mirror Polyline"
@@ -2878,7 +2878,7 @@ msgstr "Wie entworfen=0:Entgegengesetzt=1"
 
 #: cfg/mill/polyline-mirror-p.cfg:80 cfg/mill/polyline.cfg:148
 msgid "Mill as designed or in reverse"
-msgstr "Fräsen wie entworfen oder entgegengesetzt"
+msgstr "Fraesen wie entworfen oder entgegengesetzt"
 
 #: cfg/mill/polyline-mirror-p.cfg:140 cfg/mill/polyline.cfg:284
 msgid "Global tool engagement"
@@ -2898,7 +2898,7 @@ msgstr ""
 
 #: cfg/mill/polyline-polar.cfg:25 cfg/plasma/polyline-polar.cfg:25
 msgid "Length of line"
-msgstr "Länge der Linie"
+msgstr "Laenge der Linie"
 
 #: cfg/mill/polyline-polar.cfg:44 cfg/plasma/polyline-polar.cfg:44
 msgid ""
@@ -2922,7 +2922,7 @@ msgstr "<b>Wiederhole Polylinienelemente</b>"
 
 #: cfg/mill/polyline-repeat.cfg:13 cfg/plasma/polyline-repeat.cfg:13
 msgid "Add polyline items to repeat"
-msgstr "Füge zu wiederholendes Polylinienelement hinzu"
+msgstr "Fuege zu wiederholendes Polylinienelement hinzu"
 
 #: cfg/mill/polyline-repeat.cfg:16 cfg/plasma/polyline-repeat.cfg:16
 msgid "Repeat"
@@ -2934,7 +2934,7 @@ msgstr "Anzahl der Wiederholungen"
 
 #: cfg/mill/polyline-repeat.cfg:28 cfg/plasma/polyline-repeat.cfg:28
 msgid "Disabling will disable ALL items in group"
-msgstr "Abwählen wählt ALLE Elemente in der Gruppe ab"
+msgstr "Abwaehlen waehlt ALLE Elemente in der Gruppe ab"
 
 #: cfg/mill/polyline-to.cfg:4 cfg/plasma/polyline-to.cfg:4
 msgid "Line To"
@@ -2963,7 +2963,7 @@ msgid ""
 "style='oblique'><b>Message possible in terminal window</b></span>"
 msgstr ""
 "<b>Erzeuge offene oder geschlossene Polylinie</b>&#10;<span "
-"foreground='blue' style='oblique'><b>Nachricht im Terminalfenster möglich</"
+"foreground='blue' style='oblique'><b>Nachricht im Terminalfenster moeglich</"
 "b></span>"
 
 #: cfg/mill/polyline.cfg:10
@@ -3000,7 +3000,7 @@ msgstr "Drehzentrum"
 
 #: cfg/mill/polyline.cfg:205 cfg/plasma/polyline.cfg:133
 msgid "Add polyline items here"
-msgstr "Füge Polylinienelement hier ein"
+msgstr "Fuege Polylinienelement hier ein"
 
 #: cfg/mill/polyline.cfg:214 cfg/plasma/polyline.cfg:142
 msgid "Closing item"
@@ -3075,7 +3075,7 @@ msgid ""
 msgstr ""
 "<b>Antasten der Kanten</b>&#10;Am Schluss befindet sich der Taster oberhalb "
 "der Kante und kann optional als&#10;Antastpunkt benutzt werden, um die "
-"gewählte Achse auf 0 zu setzen"
+"gewaehlte Achse auf 0 zu setzen"
 
 #: cfg/mill/probe-edge.cfg:23
 msgid "X=0:Y=1"
@@ -3083,7 +3083,7 @@ msgstr "X=0:Y=1"
 
 #: cfg/mill/probe-edge.cfg:25
 msgid "Select axis to find edge"
-msgstr "Wähle Achse zur Suche der Kante"
+msgstr "Waehle Achse zur Suche der Kante"
 
 #: cfg/mill/probe-edge.cfg:32
 msgid "Ascending=1:Descending=-1"
@@ -3095,7 +3095,7 @@ msgstr "Z-Freiabstand"
 
 #: cfg/mill/probe-edge.cfg:42
 msgid "To raise above workpiece"
-msgstr "Anheben oberhalb Werkstück"
+msgstr "Anheben oberhalb Werkstueck"
 
 #: cfg/mill/probe-edge.cfg:48
 msgid "Touch off axis"
@@ -3111,7 +3111,7 @@ msgstr "probe.ngc"
 
 #: cfg/mill/probe-hole.cfg:4
 msgid "Probe Hole"
-msgstr "Länge Antaster"
+msgstr "Laenge Antaster"
 
 #: cfg/mill/probe-hole.cfg:6
 msgid ""
@@ -3124,7 +3124,7 @@ msgstr ""
 #: cfg/mill/probe-hole.cfg:29 cfg/mill/probe-stock.cfg:23
 #: cfg/mill/probe-stock.cfg:30
 msgid "Double check"
-msgstr "Nochmals prüfen"
+msgstr "Nochmals pruefen"
 
 #: cfg/mill/probe-hole.cfg:33
 msgid "Measure twice"
@@ -3140,7 +3140,7 @@ msgstr "Setze Zentrum auf X0 und Y0"
 
 #: cfg/mill/probe-stock.cfg:4
 msgid "Probe Workpiece"
-msgstr "Taste Werkstück an"
+msgstr "Taste Werkstueck an"
 
 #: cfg/mill/probe-stock.cfg:6
 msgid ""
@@ -3149,10 +3149,10 @@ msgid ""
 "foreground='blue' style='oblique'><b>Message possible in terminal window</"
 "b></span>"
 msgstr ""
-"<b>Taste Werkstück an</b>&#10;Taste jede Achse unterschiedlich innerhalb "
-"oder außerhalb an&#10;9 Optionen für das Antasten&#10;START MIT TASTER IM "
+"<b>Taste Werkstueck an</b>&#10;Taste jede Achse unterschiedlich innerhalb "
+"oder außerhalb an&#10;9 Optionen fuer das Antasten&#10;START MIT TASTER IM "
 "ZENTRUM DES WERKSTÜCKS&#10;<span foreground='blue' "
-"style='oblique'><b>Nachricht im Terminalfenster möglich</b></span>"
+"style='oblique'><b>Nachricht im Terminalfenster moeglich</b></span>"
 
 #: cfg/mill/probe-stock.cfg:17
 msgid "Show entry lines"
@@ -3160,7 +3160,7 @@ msgstr "Zeige Anfahrspur"
 
 #: cfg/mill/probe-stock.cfg:34
 msgid "Only if X is double checked"
-msgstr "Nur wenn X nochmals überprüft"
+msgstr "Nur wenn X nochmals ueberprueft"
 
 #: cfg/mill/probe-stock.cfg:50
 msgid "Probe axis"
@@ -3168,7 +3168,7 @@ msgstr "Raster Antasten"
 
 #: cfg/mill/probe-stock.cfg:52
 msgid "No=0:Yes and set height=1:Yes and do not set=2"
-msgstr "Nein=0:Ja und Höhe setzen=1:Ja und Höhe nicht setzen=2"
+msgstr "Nein=0:Ja und Hoehe setzen=1:Ja und Hoehe nicht setzen=2"
 
 #: cfg/mill/probe-stock.cfg:53
 msgid "Do NOT Probe if hollow"
@@ -3176,7 +3176,7 @@ msgstr "NICHT antasten wenn hohl"
 
 #: cfg/mill/probe-stock.cfg:68
 msgid "Set value"
-msgstr "Wähle bestimmten Wert"
+msgstr "Waehle bestimmten Wert"
 
 #: cfg/mill/probe-stock.cfg:70
 msgid "Value to set if touch"
@@ -3215,7 +3215,7 @@ msgstr "Zeige Hilfsinfo zur Kalibration"
 
 #: cfg/mill/probe-stock.cfg:130 cfg/mill/probe-stock.cfg:139
 msgid "Probe height"
-msgstr "Tasterhöhe"
+msgstr "Tasterhoehe"
 
 #: cfg/mill/probe-stock.cfg:148
 msgid "Touch off X,Y"
@@ -3223,7 +3223,7 @@ msgstr "Taste X,Y an"
 
 #: cfg/mill/probe-surface.cfg:4
 msgid "Probe Surface"
-msgstr "Oberfläche"
+msgstr "Oberflaeche"
 
 #: cfg/mill/probe-surface.cfg:6
 msgid "<b>Probe height of material and set value</b>"
@@ -3262,8 +3262,8 @@ msgid ""
 "<b>Create a Rectangle and align X and Y</b>&#10;Corners can be radiused or "
 "beveled"
 msgstr ""
-"<b>Erzeuge Rechteck und richte an X- und Y-Achse aus</b>&#10;Ecken können "
-"mit Radius oder abgeschrägt versehen werden"
+"<b>Erzeuge Rechteck und richte an X- und Y-Achse aus</b>&#10;Ecken koennen "
+"mit Radius oder abgeschraegt versehen werden"
 
 #: cfg/mill/rectangle.cfg:117 cfg/plasma/rectangle.cfg:98
 msgid "Corners"
@@ -3271,7 +3271,7 @@ msgstr "Ecken"
 
 #: cfg/mill/rectangle.cfg:126 cfg/plasma/rectangle.cfg:107
 msgid "Select corner type"
-msgstr "Wähle Ecktype"
+msgstr "Waehle Ecktype"
 
 #: cfg/mill/sel-drill.cfg:4
 msgid "Drill/Reamer Change"
@@ -3282,12 +3282,12 @@ msgid ""
 "<b>Change Drill and/or settings</b>&#10;Changes setting accordingly even if "
 "disabled"
 msgstr ""
-"<b>Füge Schneideparameter hinzu</b>&#10;Ändert Einstellungen entsprechend, "
-"auch wenn abgewählt"
+"<b>Fuege Schneideparameter hinzu</b>&#10;Ändert Einstellungen entsprechend, "
+"auch wenn abgewaehlt"
 
 #: cfg/mill/sel-drill.cfg:17
 msgid "Select drill or reamer"
-msgstr "Wähle Bohrerdurchmesser"
+msgstr "Waehle Bohrerdurchmesser"
 
 #: cfg/mill/sel-drill.cfg:21 cfg/mill/sel-end-mill.cfg:21
 #: cfg/mill/sel-reamer.cfg:21 cfg/mill/sel-thread-mill.cfg:21
@@ -3303,7 +3303,7 @@ msgstr "Vorschub und Drehzahl"
 
 #: cfg/mill/sel-drill.cfg:42
 msgid "Select drill size"
-msgstr "Wähle Bohrerdurchmesser"
+msgstr "Waehle Bohrerdurchmesser"
 
 #: cfg/mill/sel-drill.cfg:45
 msgid "User defined=0:Fractional=1:Metric=2:Letter=3:Wire gauge=4:G-Code=5"
@@ -3311,11 +3311,11 @@ msgstr "Benutzerdefiniert=0:inch-Bruch=1:Metrisch=2:Buchstabe=3:AWG=4:G-Code=5"
 
 #: cfg/mill/sel-drill.cfg:48
 msgid "Select defined drill or enter size"
-msgstr "Wähle Bohrer aus oder Eingabe der Größe"
+msgstr "Waehle Bohrer aus oder Eingabe der Groeße"
 
 #: cfg/mill/sel-drill.cfg:68
 msgid "Wire gauge drill"
-msgstr "Bohrer nach AWG-Größe"
+msgstr "Bohrer nach AWG-Groeße"
 
 #: cfg/mill/sel-drill.cfg:77
 msgid "Lettered drill"
@@ -3367,7 +3367,7 @@ msgstr "Keine=0:Uhrzeigersinn=3:Gegenuhrzeigersinn=4"
 #: cfg/mill/sel-reamer.cfg:73 cfg/mill/sel-thread-mill.cfg:69
 #: cfg/mill/surf_finish.cfg:57
 msgid "Select drill rotation"
-msgstr "Wähle Bohrerdrehrichtung"
+msgstr "Waehle Bohrerdrehrichtung"
 
 #: cfg/mill/sel-drill.cfg:148
 msgid "Drilling feed"
@@ -3380,11 +3380,11 @@ msgstr "Eintauch- oder Bohrvorschub"
 
 #: cfg/mill/sel-drill.cfg:159
 msgid "Retract (R)"
-msgstr "Rückzug (R)"
+msgstr "Rueckzug (R)"
 
 #: cfg/mill/sel-drill.cfg:162
 msgid "Retract height"
-msgstr "Rückzughöhe"
+msgstr "Rueckzughoehe"
 
 #: cfg/mill/sel-drill.cfg:170
 msgid ""
@@ -3416,23 +3416,23 @@ msgstr "Delta (Q)"
 
 #: cfg/mill/sel-end-mill.cfg:4
 msgid "End Mill Change"
-msgstr "Füllwinkel"
+msgstr "Fuellwinkel"
 
 #: cfg/mill/sel-end-mill.cfg:6
 msgid ""
 "<b>Change end mill and/or settings</b>&#10;Changes setting accordingly even "
 "if disabled"
 msgstr ""
-"<b>Füge Schneideparameter hinzu</b>&#10;Ändert Einstellungen entsprechend, "
-"auch wenn abgewählt"
+"<b>Fuege Schneideparameter hinzu</b>&#10;Ändert Einstellungen entsprechend, "
+"auch wenn abgewaehlt"
 
 #: cfg/mill/sel-end-mill.cfg:17 cfg/mill/surf_finish.cfg:16
 msgid "Select end mill"
-msgstr "Ausgewählten Datei"
+msgstr "Ausgewaehlten Datei"
 
 #: cfg/mill/sel-end-mill.cfg:29
 msgid "Penetration"
-msgstr "Frästiefe"
+msgstr "Fraestiefe"
 
 #: cfg/mill/sel-end-mill.cfg:33
 msgid "Milling step over"
@@ -3440,7 +3440,7 @@ msgstr "Seitliche Zustellung"
 
 #: cfg/mill/sel-end-mill.cfg:35
 msgid "Step over for pocketing and finishing"
-msgstr "Seitliche Zustellung für Taschenfräsen und Schlichten"
+msgstr "Seitliche Zustellung fuer Taschenfraesen und Schlichten"
 
 #: cfg/mill/sel-end-mill.cfg:55
 msgid "Dynamic diameter"
@@ -3449,7 +3449,7 @@ msgstr "Hauptdiameter"
 #: cfg/mill/sel-end-mill.cfg:58
 msgid "Only for dynamic compensation, 0.0 to use diameter from table"
 msgstr ""
-"Nur für dynamische Kompensation, mit 0.0 wird Wert aus WZ-Tabelle verwendet"
+"Nur fuer dynamische Kompensation, mit 0.0 wird Wert aus WZ-Tabelle verwendet"
 
 #: cfg/mill/sel-end-mill.cfg:112 cfg/mill/sel-thread-mill.cfg:84
 msgid "Vertical"
@@ -3489,7 +3489,7 @@ msgstr "Seitlicher Eingriff in % Durchm."
 
 #: cfg/mill/sel-end-mill.cfg:169
 msgid "Maximum for pocketing or surface finishing"
-msgstr "Seitliche Zustellung für Taschenfräsen und Schlichten"
+msgstr "Seitliche Zustellung fuer Taschenfraesen und Schlichten"
 
 #: cfg/mill/sel-reamer.cfg:4
 msgid "Reamer Change"
@@ -3500,28 +3500,28 @@ msgid ""
 "<b>Change reamer and/or settings</b>&#10;Changes setting accordingly even if "
 "disabled"
 msgstr ""
-"<b>Füge Schneideparameter hinzu</b>&#10;Ändert Einstellungen entsprechend, "
-"auch wenn abgewählt"
+"<b>Fuege Schneideparameter hinzu</b>&#10;Ändert Einstellungen entsprechend, "
+"auch wenn abgewaehlt"
 
 #: cfg/mill/sel-reamer.cfg:17
 msgid "Select reamer"
-msgstr "Wähle Größe"
+msgstr "Waehle Groeße"
 
 #: cfg/mill/sel-thread-mill.cfg:4
 msgid "Thread Mill Change"
-msgstr "Gewindefräser einwechseln"
+msgstr "Gewindefraeser einwechseln"
 
 #: cfg/mill/sel-thread-mill.cfg:6
 msgid ""
 "<b>Change thread mill and/or settings</b>&#10;Changes setting accordingly "
 "even if disabled"
 msgstr ""
-"<b>Ändere Gewindefräser und/oder Einstellungen</b>&#10;Ändert Einstellungen "
-"entsprechend, auch wenn abgewählt"
+"<b>Ändere Gewindefraeser und/oder Einstellungen</b>&#10;Ändert Einstellungen "
+"entsprechend, auch wenn abgewaehlt"
 
 #: cfg/mill/sel-thread-mill.cfg:17
 msgid "Select thread mill"
-msgstr "Wähle Gewindefräser"
+msgstr "Waehle Gewindefraeser"
 
 #: cfg/mill/sel-thread-mill.cfg:99
 msgid "Cutter engagement"
@@ -3529,19 +3529,19 @@ msgstr "Schneideneingriff"
 
 #: cfg/mill/sel-thread-mill.cfg:110
 msgid "Cutter teeth"
-msgstr "Zähne"
+msgstr "Zaehne"
 
 #: cfg/mill/sel-thread-mill.cfg:113
 msgid "Number of cutter teeth"
-msgstr "Anzahl Zähne"
+msgstr "Anzahl Zaehne"
 
 #: cfg/mill/sel-thread-mill.cfg:119
 msgid "Lead-in clearance"
-msgstr "Freiraum für Einfahrt"
+msgstr "Freiraum fuer Einfahrt"
 
 #: cfg/mill/sel-thread-mill.cfg:121
 msgid "Distance from face in machine units before engaging cutter"
-msgstr "Entfernung von der Oberfläche in Maschine-Einheiten vor Schnitt"
+msgstr "Entfernung von der Oberflaeche in Maschine-Einheiten vor Schnitt"
 
 #: cfg/mill/slot-2.cfg:4 cfg/plasma/slot-2.cfg:4
 msgid "Slot/oval 2 points"
@@ -3617,7 +3617,7 @@ msgstr "Richtung des Werkzeugpfads"
 
 #: cfg/mill/surf_finish.cfg:6
 msgid "<b>Surface Finishing</b>"
-msgstr "<b>Oberflächenbearbeitung</b>"
+msgstr "<b>Oberflaechenbearbeitung</b>"
 
 #: cfg/mill/surf_finish.cfg:28
 msgid "Step over"
@@ -3629,7 +3629,7 @@ msgstr "Minimum"
 
 #: cfg/mill/surf_finish.cfg:96
 msgid "Tool path"
-msgstr "Wähle Werkzeugpfad"
+msgstr "Waehle Werkzeugpfad"
 
 #: cfg/mill/surf_finish.cfg:106
 msgid "Main axis"
@@ -3641,7 +3641,7 @@ msgstr "Beidseitig=0:Einseitig=2"
 
 #: cfg/mill/surf_finish.cfg:118 cfg/mill/surf_finish.cfg:126
 msgid "Defines quality of finish"
-msgstr "Bestimme Oberflächengüte"
+msgstr "Bestimme Oberflaechenguete"
 
 #: cfg/mill/surf_finish.cfg:121
 msgid "Entry mode"
@@ -3657,7 +3657,7 @@ msgstr "Relativ zum Start"
 
 #: cfg/mill/surf_finish.cfg:154
 msgid "Last cut"
-msgstr "Letzter Schlichtfräsgang"
+msgstr "Letzter Schlichtfraesgang"
 
 #: cfg/mill/surf_finish.cfg:159
 msgid "Last cut depth"
@@ -3677,19 +3677,19 @@ msgstr "Sicherheitsabstand"
 
 #: cfg/mill/surf_finish.cfg:177
 msgid "Percent of tool diameter past edge"
-msgstr "Prozent des WZ-Durchmessers über die Kante"
+msgstr "Prozent des WZ-Durchmessers ueber die Kante"
 
 #: cfg/mill/surf_finish.cfg:184
 msgid "User defined=0:Surface=1"
-msgstr "Benutzerdefiniert=0:Oberfläche=1"
+msgstr "Benutzerdefiniert=0:Oberflaeche=1"
 
 #: cfg/mill/thread-milling.cfg:4
 msgid "Thread Milling"
-msgstr "Gewindefräsen"
+msgstr "Gewindefraesen"
 
 #: cfg/mill/thread-milling.cfg:6
 msgid "<b>Create internal or external threads</b>"
-msgstr "<b>Inneres oder äußeres Gewinde</b>"
+msgstr "<b>Inneres oder aeußeres Gewinde</b>"
 
 #: cfg/mill/thread-milling.cfg:29 cfg/mill/thread-milling.cfg:47
 msgid "Center of helix"
@@ -3701,7 +3701,7 @@ msgstr "Internal=2:External=3"
 
 #: cfg/mill/thread-milling.cfg:70
 msgid "Select helix side"
-msgstr "Wähle Spiral-Seite"
+msgstr "Waehle Spiral-Seite"
 
 #: cfg/mill/thread-milling.cfg:77
 msgid "Clockwise (RH)=3:Counter-clockwise (LH)=2"
@@ -3765,11 +3765,11 @@ msgstr "Strecken oder komprimieren"
 
 #: cfg/mill/ttt.cfg:63
 msgid "Text height"
-msgstr "Rückzughöhe"
+msgstr "Rueckzughoehe"
 
 #: cfg/mill/ttt.cfg:66
 msgid "Y Size of text"
-msgstr "Größe und Offsets"
+msgstr "Groeße und Offsets"
 
 #: cfg/mill/ttt.cfg:73
 msgid "Align vertical"
@@ -3790,7 +3790,7 @@ msgstr "Linienstart"
 
 #: cfg/mill/ttt.cfg:92
 msgid "Ratio to Text height"
-msgstr "Rückzughöhe"
+msgstr "Rueckzughoehe"
 
 #: cfg/mill/ttt.cfg:97
 msgid "Mirrored"
@@ -3806,7 +3806,7 @@ msgstr "Unicode"
 
 #: cfg/mill/ttt.cfg:120
 msgid "Filled"
-msgstr "Füllwinkel"
+msgstr "Fuellwinkel"
 
 #: cfg/mill/ttt.cfg:122
 msgid "With horizontal lines"
@@ -3814,7 +3814,7 @@ msgstr "Mit horizontalen Linien"
 
 #: cfg/mill/ttt.cfg:127
 msgid "Filling scale"
-msgstr "Füllwinkel"
+msgstr "Fuellwinkel"
 
 #: cfg/mill/ttt.cfg:144
 msgid "Engraving depth"
@@ -3844,12 +3844,12 @@ msgid ""
 "<b>Add cutting parameters</b>&#10;Changes setting accordingly even if "
 "disabled"
 msgstr ""
-"<b>Füge Schneideparameter hinzu</b>&#10;Ändert Einstellungen entsprechend, "
-"auch wenn abgewählt"
+"<b>Fuege Schneideparameter hinzu</b>&#10;Ändert Einstellungen entsprechend, "
+"auch wenn abgewaehlt"
 
 #: cfg/plasma/cutting-params2d.cfg:14 cfg/plasma/cutting-params3d.cfg:14
 msgid "Cutting params will be set even if disabled"
-msgstr "Schneideparameter werden gesetzt, auch wenn abgewählt"
+msgstr "Schneideparameter werden gesetzt, auch wenn abgewaehlt"
 
 #: cfg/plasma/cutting-params2d.cfg:17 cfg/plasma/cutting-params3d.cfg:17
 msgid "Cut"
@@ -3861,15 +3861,15 @@ msgstr "Schnittbreite"
 
 #: cfg/plasma/cutting-params2d.cfg:25 cfg/plasma/cutting-params3d.cfg:25
 msgid "Select kerf width for compensation"
-msgstr "Wähle Schnittbreite für Kompensation"
+msgstr "Waehle Schnittbreite fuer Kompensation"
 
 #: cfg/plasma/cutting-params2d.cfg:29 cfg/plasma/cutting-params3d.cfg:29
 msgid "Start height"
-msgstr "Starthöhe"
+msgstr "Starthoehe"
 
 #: cfg/plasma/cutting-params2d.cfg:33 cfg/plasma/cutting-params3d.cfg:33
 msgid "Above surface"
-msgstr "Oberhalb Oberfläche"
+msgstr "Oberhalb Oberflaeche"
 
 #: cfg/plasma/cutting-params2d.cfg:39 cfg/plasma/cutting-params3d.cfg:38
 msgid "Normal feed"
@@ -3902,11 +3902,11 @@ msgstr "Auslauf-Faktor"
 
 #: cfg/plasma/cutting-params2d.cfg:109 cfg/plasma/cutting-params3d.cfg:104
 msgid "Pierce delay"
-msgstr "Verzögerung bis Durchbruch"
+msgstr "Verzoegerung bis Durchbruch"
 
 #: cfg/plasma/cutting-params2d.cfg:112 cfg/plasma/cutting-params3d.cfg:107
 msgid "Wait after torch OK"
-msgstr "Wartezeit nach Zündung "
+msgstr "Wartezeit nach Zuendung "
 
 #: cfg/plasma/material2d.cfg:72 cfg/plasma/material3d.cfg:72
 msgid "Top=0:Bottom=1"
@@ -3926,7 +3926,7 @@ msgstr "Werkzeugradiuskompensation"
 
 #: cfg/plasma/polyline-mirror-p.cfg:80 cfg/plasma/polyline.cfg:126
 msgid "Cut as designed or in reverse"
-msgstr "Schnitt, wie bestimmt, oder in Rückwärtsgang"
+msgstr "Schnitt, wie bestimmt, oder in Rueckwaertsgang"
 
 #: cfg/plasma/polyline-to.cfg:42
 msgid "Relative=0:Absolute=1"
@@ -3951,7 +3951,7 @@ msgstr "_Projekte"
 #: cfg/proj_desc.cfg:7
 msgid "<b>Shows project name and you can add a comment</b>"
 msgstr ""
-"<b>Zeigt den Projektnamen und ein Kommentar kann hinzugefügt werden</b>"
+"<b>Zeigt den Projektnamen und ein Kommentar kann hinzugefuegt werden</b>"
 
 #: cfg/proj_desc.cfg:11
 msgid "Project name"
@@ -3991,7 +3991,7 @@ msgstr "X-Drehung der Elemente"
 
 #: cfg/rectangular-array.cfg:116 cfg/rectangular-array.cfg:135
 msgid "Relative to previous one"
-msgstr "Relativ zum Vorgänger"
+msgstr "Relativ zum Vorgaenger"
 
 #: cfg/rectangular-array.cfg:125
 msgid "Y step"
@@ -4007,11 +4007,11 @@ msgstr "NativeCAM"
 
 #: ncam.glade:186 ncam.glade:188
 msgid "Cancel add"
-msgstr "Hinzufügen abbrechen"
+msgstr "Hinzufuegen abbrechen"
 
 #: ncam.glade:201 ncam.glade:203
 msgid "Add cfg file"
-msgstr "Füge cfg-Datei hinzu"
+msgstr "Fuege cfg-Datei hinzu"
 
 #: ncam.glade:217 ncam.glade:219
 msgid "Import XML file"
@@ -4019,7 +4019,7 @@ msgstr "Importiere XML-Datei"
 
 #: ncam.py:85
 msgid "NativeCAM for LinuxCNC"
-msgstr "NativeCAM für LinuxCNC"
+msgstr "NativeCAM fuer LinuxCNC"
 
 #: ncam.py:86
 msgid "A GUI to help create LinuxCNC NGC files."
@@ -4033,7 +4033,7 @@ msgid ""
 "\n"
 "It is recommended you use the deb package\n"
 msgstr ""
-"Dieses Programm ist in der Hoffnung, das es nützlich ist, verbreitet "
+"Dieses Programm ist in der Hoffnung, das es nuetzlich ist, verbreitet "
 "worden,\n"
 "allerdings OHNE JEDE GARANTIE; ohne jegliche, auch nur implizierte Garantie\n"
 "der MARKTTAUGLICHKEIT oder EIGNUNG FÜR EINEN BESTIMMTEN ZWECK.\n"
@@ -4093,7 +4093,7 @@ msgid ""
 "PROGRAM_PREFIX = abs or relative path to scripts directory\n"
 "i.e. PROGRAM_PREFIX = ./scripts or ~/ncam/scripts"
 msgstr ""
-"ini-Datei enthält keinen PROGRAM_PREFIX\n"
+"ini-Datei enthaelt keinen PROGRAM_PREFIX\n"
 "Editiere DISPLAY Abschnitt\n"
 "\n"
 "PROGRAM_PREFIX = absoluter oder relativer Pfad zum scripts-Verzeichnis\n"
@@ -4141,11 +4141,11 @@ msgstr ""
 
 #: ncam.py:551
 msgid "Stop LinuxCNC program,&#10;toggle the shown button,&#10;then restart"
-msgstr "Stop LinuxCNC,&#10;drücke den gezeigten Knopf,&#10;dann Neustart"
+msgstr "Stop LinuxCNC,&#10;druecke den gezeigten Knopf,&#10;dann Neustart"
 
 #: ncam.py:552
 msgid "Skip block not active"
-msgstr "Block überspringen nicht aktiv"
+msgstr "Block ueberspringen nicht aktiv"
 
 #: ncam.py:562 ncam.py:1920
 msgid "Do not show again"
@@ -4197,7 +4197,7 @@ msgid ""
 "Type not defined for\n"
 "%s"
 msgstr ""
-"Typ nicht definiert für\n"
+"Typ nicht definiert fuer\n"
 "%s"
 
 #: ncam.py:1834
@@ -4221,7 +4221,7 @@ msgid ""
 "(*** GCode generated by NativeCAM for LinuxCNC ***)\n"
 "\n"
 msgstr ""
-"(*** GCode erzeugt durch NativeCAM für LinuxCNC ***)\n"
+"(*** GCode erzeugt durch NativeCAM fuer LinuxCNC ***)\n"
 "\n"
 
 #: ncam.py:2191
@@ -4252,7 +4252,7 @@ msgstr ""
 msgid ""
 "(This is a built-in safety to help avoid gouging into your work piece)\n"
 msgstr ""
-"(Das ist eine eingebaute Sicherheit, um einen Einstich das Werkstück "
+"(Das ist eine eingebaute Sicherheit, um einen Einstich das Werkstueck "
 "vermeiden zu helfen)\n"
 
 #: ncam.py:2281
@@ -4271,7 +4271,7 @@ msgid ""
 "%(detail)s"
 msgstr ""
 "ini Datei : %(inifilename)s\n"
-"konte nicht geöffnet werden\n"
+"konte nicht geoeffnet werden\n"
 "%(detail)s"
 
 #: ncam.py:2385 ncam.py:4982
@@ -4353,14 +4353,14 @@ msgstr "Zeige Linie"
 
 #: ncam.py:2974
 msgid "Back..."
-msgstr "Zurück..."
+msgstr "Zurueck..."
 
 #: ncam.py:3031
 msgid ""
 "Menu is old format, no toolbar defined.\n"
 "Update to new format"
 msgstr ""
-"Menü hat altes Format, keine Toolbar definiert.\n"
+"Menue hat altes Format, keine Toolbar definiert.\n"
 "Auf neues Format updaten "
 
 #: ncam.py:3050 ncam.py:3176
@@ -4377,7 +4377,7 @@ msgstr "_Projekte"
 
 #: ncam.py:3291
 msgid "Open Example"
-msgstr "Beispiel öffnen"
+msgstr "Beispiel oeffnen"
 
 #: ncam.py:3291
 msgid "Open Example Project"
@@ -4405,11 +4405,11 @@ msgstr "_Bearbeiten"
 
 #: ncam.py:3298
 msgid "Undo last operation"
-msgstr "Letzten Vorgang rückgängig machen"
+msgstr "Letzten Vorgang rueckgaengig machen"
 
 #: ncam.py:3299
 msgid "Cancel last Undo"
-msgstr "Letzte Wiederherstellung rückgängig machen"
+msgstr "Letzte Wiederherstellung rueckgaengig machen"
 
 #: ncam.py:3300
 msgid "Cut selected subroutine to clipboard"
@@ -4421,11 +4421,11 @@ msgstr "Kopiere markierte Subroutine in Zwischenspeicher"
 
 #: ncam.py:3302
 msgid "Paste from clipboard"
-msgstr "Einfügen aus Zwischenspeicher"
+msgstr "Einfuegen aus Zwischenspeicher"
 
 #: ncam.py:3303
 msgid "Add a subroutine"
-msgstr "Subroutine einfügen"
+msgstr "Subroutine einfuegen"
 
 #: ncam.py:3304
 msgid "Duplicate"
@@ -4437,11 +4437,11 @@ msgstr "Markierte Subroutine duplizieren"
 
 #: ncam.py:3305
 msgid "Remove selected subroutine"
-msgstr "Markierte Subroutine löschen"
+msgstr "Markierte Subroutine loeschen"
 
 #: ncam.py:3306
 msgid "Add to Items"
-msgstr "Hinzufügen zu Elementen"
+msgstr "Hinzufuegen zu Elementen"
 
 #: ncam.py:3307
 msgid "Remove from Items"
@@ -4465,7 +4465,7 @@ msgstr "Speichere Werte dieser Subroutine als Standardwerte"
 
 #: ncam.py:3311
 msgid "Delete Custom Default Values"
-msgstr "Lösche Benutzerstandardwerte"
+msgstr "Loesche Benutzerstandardwerte"
 
 #: ncam.py:3312
 msgid "Set Digits"
@@ -4473,7 +4473,7 @@ msgstr "Setze Stellenanzahl"
 
 #: ncam.py:3321
 msgid "_Add"
-msgstr "_Einfügen"
+msgstr "_Einfuegen"
 
 #: ncam.py:3322
 msgid "Add a Prototype Subroutine"
@@ -4481,7 +4481,7 @@ msgstr "Öffne cfg-Datei"
 
 #: ncam.py:3322
 msgid "Add a Subroutine Definition File"
-msgstr "Füge Subroutinedefinitiion ein"
+msgstr "Fuege Subroutinedefinitiion ein"
 
 #: ncam.py:3323
 msgid "Import a Project File"
@@ -4513,7 +4513,7 @@ msgstr "Zweigeteilte Ansicht"
 
 #: ncam.py:3336
 msgid "Top / Bottom Layout"
-msgstr "Ansicht übereinander"
+msgstr "Ansicht uebereinander"
 
 #: ncam.py:3337
 msgid "Side By Side Layout"
@@ -4577,11 +4577,11 @@ msgstr "Keine Nachrichten mehr anzeigen"
 
 #: ncam.py:3363
 msgid "Show All For Current Type"
-msgstr "Alle für aktuellen Typ anzeigen"
+msgstr "Alle fuer aktuellen Typ anzeigen"
 
 #: ncam.py:3364
 msgid "Show None For Current Type"
-msgstr "Zeige keine für aktuellen Typ"
+msgstr "Zeige keine fuer aktuellen Typ"
 
 #: ncam.py:3367
 msgid "_Help"
@@ -4593,7 +4593,7 @@ msgstr "NativeCAM auf YouTube"
 
 #: ncam.py:3369
 msgid "Translating NativeCAM"
-msgstr "NativeCAM übersetzen"
+msgstr "NativeCAM uebersetzen"
 
 #: ncam.py:3370
 msgid "LinuxCNC web Site"
@@ -4605,7 +4605,7 @@ msgstr "LinuxCNC Forum"
 
 #: ncam.py:3375
 msgid "Hide Selected Field"
-msgstr "Ausgewähltes Feld verbergen"
+msgstr "Ausgewaehltes Feld verbergen"
 
 #: ncam.py:3376
 msgid "Show All Fields"
@@ -4635,11 +4635,11 @@ msgstr "Gruppe <-- -->Untergruppe"
 
 #: ncam.py:3382
 msgid "Change to GCode"
-msgstr "Änderung für GCode"
+msgstr "Änderung fuer GCode"
 
 #: ncam.py:3383
 msgid "Revert to original type"
-msgstr "Kehren Sie zu ursprünglichem Typ zurück"
+msgstr "Kehren Sie zu urspruenglichem Typ zurueck"
 
 #: ncam.py:3722
 msgid "Secondary treeview focused"
@@ -4663,12 +4663,12 @@ msgstr "Speichern als ngc..."
 
 #: ncam.py:4121
 msgid "Enter new name for"
-msgstr "Neuen Namen eingeben für"
+msgstr "Neuen Namen eingeben fuer"
 
 #: ncam.py:4214
 #, python-format
 msgid "'%(source_file)s' is not a valid cfg or xml file"
-msgstr "'%(source_file)s' is keine gültige cfg oder xml Datei"
+msgstr "'%(source_file)s' is keine gueltige cfg oder xml Datei"
 
 #: ncam.py:4244
 msgid ""
@@ -4729,11 +4729,11 @@ msgstr " \"%s\""
 
 #: ncam.py:4856
 msgid "Open project"
-msgstr "Projekt öffnen"
+msgstr "Projekt oeffnen"
 
 #: ncam.py:4860
 msgid "Open example project"
-msgstr "Demoprojekt öffnen"
+msgstr "Demoprojekt oeffnen"
 
 #: ncam.py:4861
 msgid "NativeCAM example projects"
@@ -4778,27 +4778,27 @@ msgstr "Mitte"
 
 #: ncam_pref.glade:293
 msgid "Loop back"
-msgstr "Schleife zurück"
+msgstr "Schleife zurueck"
 
 #: ncam_pref.glade:296
 msgid "Spiral"
-msgstr "Spiralförmig"
+msgstr "Spiralfoermig"
 
 #: ncam_pref.glade:307
 msgid "G38.2 - toward workpiece, stop on contact, signal failure"
-msgstr "G38.2 - in Richtung Werkstück, Stop bei Kontakt, Fehler melden"
+msgstr "G38.2 - in Richtung Werkstueck, Stop bei Kontakt, Fehler melden"
 
 #: ncam_pref.glade:310
 msgid "G38.3 - toward workpiece, stop on contact"
-msgstr "G38.3 - in Richtung Werkstück, Stop bei Kontakt"
+msgstr "G38.3 - in Richtung Werkstueck, Stop bei Kontakt"
 
 #: ncam_pref.glade:313
 msgid "G38.4 - away from workpiece, stop on loss of contact, signal failure"
-msgstr "G38.4 - vom Werkstück weg, Stop bei Kontaktöffnung, Fehler melden"
+msgstr "G38.4 - vom Werkstueck weg, Stop bei Kontaktoeffnung, Fehler melden"
 
 #: ncam_pref.glade:316
 msgid "G38.5 - away from workpiece, stop on loss of contact"
-msgstr "G38.4 - vom Werkstück weg, Stop bei Kontaktöffnung"
+msgstr "G38.4 - vom Werkstueck weg, Stop bei Kontaktoeffnung"
 
 #: ncam_pref.glade:327 ncam_pref.glade:2961
 msgid "Imperial"
@@ -4821,12 +4821,12 @@ msgid ""
 "Increase if gmoccapy auto-refresh is intermittent or some input windows do "
 "not show"
 msgstr ""
-"Erhöhen wenn gmoccapy autorefresh ruckelt oder einige Eingabefenster nicht "
+"Erhoehen wenn gmoccapy autorefresh ruckelt oder einige Eingabefenster nicht "
 "gezeigt werden"
 
 #: ncam_pref.glade:450
 msgid "Gmoccapy input time-out delay"
-msgstr "Gmoccapy Eingabetimeout-Verzögerung"
+msgstr "Gmoccapy Eingabetimeout-Verzoegerung"
 
 #: ncam_pref.glade:505
 msgid "Autosave on closing"
@@ -4886,7 +4886,7 @@ msgstr "Anzeige"
 
 #: ncam_pref.glade:933
 msgid "Menu"
-msgstr "Menü"
+msgstr "Menue"
 
 #: ncam_pref.glade:989
 msgid "Treeview"
@@ -4894,7 +4894,7 @@ msgstr "Baumansicht"
 
 #: ncam_pref.glade:1003
 msgid "Add menu"
-msgstr "Menü hinzufügen"
+msgstr "Menue hinzufuegen"
 
 #: ncam_pref.glade:1017
 msgid "Quick access toolbar"
@@ -4902,15 +4902,15 @@ msgstr "Schnellzugriffsleiste"
 
 #: ncam_pref.glade:1031
 msgid "Add dialog"
-msgstr "Dialog hinzufügen"
+msgstr "Dialog hinzufuegen"
 
 #: ncam_pref.glade:1076
 msgid "Main toolbar"
-msgstr "Hauptmenüleiste"
+msgstr "Hauptmenueleiste"
 
 #: ncam_pref.glade:1202
 msgid "Icons Size"
-msgstr "Größe der Icons"
+msgstr "Groeße der Icons"
 
 #: ncam_pref.glade:1244
 msgid "Cancel on focusing out"
@@ -4938,7 +4938,7 @@ msgstr "Nachsatz  "
 
 #: ncam_pref.glade:1845
 msgid "Spindle full speed delay"
-msgstr "Verzögerung bis volle Spindeldrehzahl"
+msgstr "Verzoegerung bis volle Spindeldrehzahl"
 
 #: ncam_pref.glade:1890
 msgid "Except on tool change"
@@ -4974,15 +4974,15 @@ msgstr "Taster Sicherheitsabstand"
 
 #: ncam_pref.glade:2170
 msgid "Probe tool length"
-msgstr "Länge Antaster"
+msgstr "Laenge Antaster"
 
 #: ncam_pref.glade:2202
 msgid "Size of probe"
-msgstr "Größe des Tasters"
+msgstr "Groeße des Tasters"
 
 #: ncam_pref.glade:2225
 msgid "Height of probe"
-msgstr "Höhe des Tasters"
+msgstr "Hoehe des Tasters"
 
 #: ncam_pref.glade:2245
 msgid "Probing"
@@ -5010,11 +5010,11 @@ msgstr "Optimieren"
 
 #: ncam_pref.glade:2662
 msgid "Coordinates for offsetting and rotation"
-msgstr "Koordinaten für Offset und Drehung"
+msgstr "Koordinaten fuer Offset und Drehung"
 
 #: ncam_pref.glade:2692
 msgid "Pocket expanding mode"
-msgstr "Taschenfräsen Erweiterungsmethode"
+msgstr "Taschenfraesen Erweiterungsmethode"
 
 #: ncam_pref.glade:2727
 msgid "Center drill depth"
