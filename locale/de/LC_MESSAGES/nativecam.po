@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nativecam\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-05 08:41+0200\n"
-"PO-Revision-Date: 2020-10-07 20:11+0200\n"
+"PO-Revision-Date: 2020-10-12 13:04+0200\n"
 "Last-Translator: Daniel <mydani@gmx.de>\n"
 "Language-Team: LL@li.org\n"
 "Language: de\n"
@@ -155,7 +155,7 @@ msgstr "Winkel des ersten Elements"
 
 #: cfg/circular-array.cfg:80 cfg/mill/index-axisA.cfg:40
 msgid "Fill angle"
-msgstr "Fuellwinkel"
+msgstr "Fuell Winkel"
 
 #: cfg/circular-array.cfg:84
 msgid "Angle covered by items"
@@ -444,7 +444,7 @@ msgstr "Werkzeug Orientierung sollte 8,9,3,4 oder 0 sein"
 
 #: cfg/lathe/facing.cfg:4 cfg/mill/surf_finish.cfg:4
 msgid "Facing"
-msgstr "Endbearbeitung"
+msgstr "Plandrehen"
 
 #: cfg/lathe/facing.cfg:6
 msgid ""
@@ -610,11 +610,11 @@ msgstr "Durchmesser=7;Radius=8"
 
 #: cfg/lathe/material.cfg:70
 msgid "Safe X rapid"
-msgstr "Sicherer X Abstand fuer Eilgang"
+msgstr "G0 Abstand X"
 
 #: cfg/lathe/material.cfg:77 cfg/lathe/material.cfg:85
-msgid "When job is done"
-msgstr "Wenn fertig"
+msgid "Distance for G0 / rapid move"
+msgstr "Abstand für G0 / Eilgang"
 
 #: cfg/lathe/material.cfg:81
 msgid "Safe Z rapid"
@@ -771,13 +771,13 @@ msgstr ""
 #: cfg/lathe/taper_oda.cfg:43 cfg/lathe/taper_odl.cfg:30
 #: cfg/lathe/taper_odl.cfg:43
 msgid "Small diameter"
-msgstr "Hauptdiameter"
+msgstr "Kleiner Durchmesser"
 
 #: cfg/lathe/taper_ida.cfg:30 cfg/lathe/taper_idl.cfg:30
 #: cfg/lathe/taper_idl.cfg:43 cfg/lathe/taper_oda.cfg:20
 #: cfg/lathe/taper_odl.cfg:20 cfg/lathe/taper_odl.cfg:51
 msgid "Large diameter"
-msgstr "Hauptdiameter"
+msgstr "Großer Durchmesser"
 
 #: cfg/lathe/taper_ida.cfg:49 cfg/lathe/taper_oda.cfg:49
 msgid "End will be defined by angle"
@@ -949,7 +949,7 @@ msgstr "Benutzerdefiniert=0:Automatisch=1:G-Code=2"
 
 #: cfg/lathe/threading.cfg:83 cfg/mill/thread-milling.cfg:178
 msgid "Pitch"
-msgstr "Wurf"
+msgstr "Steigung"
 
 #: cfg/lathe/threading.cfg:87 cfg/mill/thread-milling.cfg:181
 msgid "Metric pitch is thread to thread, imperial is per inch"
@@ -959,7 +959,7 @@ msgstr ""
 
 #: cfg/lathe/threading.cfg:92 cfg/mill/thread-milling.cfg:189
 msgid "Starts"
-msgstr "Start"
+msgstr "Anzahl Gewindegaenge"
 
 #: cfg/lathe/threading.cfg:95 cfg/mill/thread-milling.cfg:192
 msgid "Number of helix"
@@ -967,7 +967,7 @@ msgstr "Zahl(Nummer) von Spirale-Anfaengen"
 
 #: cfg/lathe/threading.cfg:105
 msgid "Depth degression"
-msgstr "Tiefendegression (R)"
+msgstr "Zustellmodus"
 
 #: cfg/lathe/threading.cfg:111
 msgid "1 = constant depth, 2 = constant area"
@@ -991,7 +991,7 @@ msgstr "Tiefe der ersten Zustellung in Durchmesser-Werten"
 
 #: cfg/lathe/threading.cfg:135
 msgid "End taper"
-msgstr "Kegelfoermig"
+msgstr "Endkegel"
 
 #: cfg/lathe/threading.cfg:138
 msgid "None=0:On entry=1:On exit=2:Both=3"
@@ -1077,7 +1077,7 @@ msgstr "Laengenkompensation benutzen"
 #: cfg/mill/sel-end-mill.cfg:68 cfg/mill/sel-reamer.cfg:44
 #: cfg/mill/sel-thread-mill.cfg:40 cfg/mill/surf_finish.cfg:46
 msgid "No=0:Already mounted and touched=3:From tool table=1:Table and probe=2"
-msgstr "Kein=0:Aus Werkzeugtabelle=1:Tabelle und Antasten=2"
+msgstr "Nein=0:Aus Werkzeugtabelle=1:Tabelle und Antasten=2"
 
 #: cfg/lathe/tool-change.cfg:44 cfg/mill/sel-drill.cfg:109
 #: cfg/mill/sel-end-mill.cfg:71 cfg/mill/sel-reamer.cfg:47
@@ -1129,8 +1129,8 @@ msgid "Mode"
 msgstr "Modus"
 
 #: cfg/lathe/tool-change.cfg:73
-msgid "Constant surface speed=0:RPM=1"
-msgstr "Setze Spindeldrehzahl"
+msgid "G96 constant surface velocity, G97 constant RPM"
+msgstr "G96 konstante Oberflaechengeschwindigkeit, G97 konstante Drehzahl"
 
 #: cfg/lathe/tool-change.cfg:76 cfg/lathe/tool-change.cfg:199
 msgid "param_surf_speed"
@@ -1169,11 +1169,11 @@ msgstr "Setze Spindeldrehzahl"
 
 #: cfg/lathe/tool-change.cfg:92
 msgid "Surface speed"
-msgstr "Oberflaeche"
+msgstr "Oberflaechengeschwindigkeit"
 
 #: cfg/lathe/tool-change.cfg:97
 msgid "Constant spindle speed"
-msgstr "Setze Spindeldrehzahl"
+msgstr "Konstante Spindeldrehzahl"
 
 #: cfg/lathe/tool-change.cfg:102
 msgid "Roughing"
@@ -1181,7 +1181,7 @@ msgstr "Schruppen"
 
 #: cfg/lathe/tool-change.cfg:104
 msgid "Set these when usage is roughing"
-msgstr "Setze diese Werte zum Bohren"
+msgstr "Setze diese Werte zum Schruppen"
 
 #: cfg/lathe/tool-change.cfg:107 cfg/lathe/tool-change.cfg:134
 #: cfg/mill/sel-end-mill.cfg:101 cfg/mill/sel-reamer.cfg:77
@@ -1201,6 +1201,12 @@ msgstr "Vorschub bei 100% Eingriff"
 #: cfg/lathe/tool-change.cfg:118 cfg/lathe/tool-change.cfg:145
 msgid "Cut depth"
 msgstr "Schnitttiefe"
+
+msgid "G94=0:G95=1"
+msgstr "G94=0:G95=1"
+
+msgid "G94 is feed per min, G95 is feed per rev"
+msgstr "G94 ist Vorschub/Zeit, G95 ist Vorschub/Umdrehung"
 
 #: cfg/lathe/tool-change.cfg:121 cfg/lathe/tool-change.cfg:148
 #: cfg/mill/sel-thread-mill.cfg:102
@@ -3416,7 +3422,7 @@ msgstr "Delta (Q)"
 
 #: cfg/mill/sel-end-mill.cfg:4
 msgid "End Mill Change"
-msgstr "Fuellwinkel"
+msgstr "Fraeserwechsel"
 
 #: cfg/mill/sel-end-mill.cfg:6
 msgid ""
@@ -3806,7 +3812,7 @@ msgstr "Unicode"
 
 #: cfg/mill/ttt.cfg:120
 msgid "Filled"
-msgstr "Fuellwinkel"
+msgstr "Ausgefuellt"
 
 #: cfg/mill/ttt.cfg:122
 msgid "With horizontal lines"
@@ -3814,7 +3820,7 @@ msgstr "Mit horizontalen Linien"
 
 #: cfg/mill/ttt.cfg:127
 msgid "Filling scale"
-msgstr "Fuellwinkel"
+msgstr "Fuellskalierung"
 
 #: cfg/mill/ttt.cfg:144
 msgid "Engraving depth"
